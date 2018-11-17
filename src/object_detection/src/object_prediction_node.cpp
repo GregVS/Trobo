@@ -20,7 +20,6 @@ void ObjectPredictionNode::executePredictionForOutput(const custom_msgs::ImagesA
 
 	// run the prediction
 	custom_msgs::ImagesAndBoxes imgBoxes = objPrediction_.performPrediction(currNetOut, lastNetOut, lastAction);
-	ROS_INFO("HI");
 	outputPub_.publish(imgBoxes);
 }
 
@@ -51,6 +50,8 @@ int main(int argc, char **argv) {
 	ObjectPredictionNode objPredictionNode(netOutClient, actionClient, outputPub);
 
 	ros::Subscriber netOutSub = nh.subscribe("network_out_imgs", 2, &ObjectPredictionNode::executePredictionForOutput, &objPredictionNode);
+
+	ROS_INFO("Obj Prediction Node Running...");
 
 	ros::spin();
 	
