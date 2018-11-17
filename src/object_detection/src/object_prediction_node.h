@@ -8,16 +8,15 @@
 class ObjectPredictionNode {
 
 private:
-	ros::Publisher outputPub_;
+	ros::Publisher& outputPub_;
 	ObjectPrediction objPrediction_;
 
-	ros::ServiceClient netOutClient_;
-	ros::ServiceClient actionClient_;
-
-	std::unique_ptr<ros::NodeHandle> nodeHandle_;
+	ros::ServiceClient& netOutClient_;
+	ros::ServiceClient& actionClient_;
 
 public:
-	ObjectPredictionNode(int argc, char**argv);
+	ObjectPredictionNode(ros::ServiceClient& netOutClient, ros::ServiceClient& actionClient, ros::Publisher& outputPub):
+		netOutClient_(netOutClient), actionClient_(actionClient), outputPub_(outputPub) {}
 
 	void executePredictionForOutput(const custom_msgs::ImagesAndBoxes::ConstPtr& msg);
 	void run();

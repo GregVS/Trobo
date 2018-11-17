@@ -7,19 +7,7 @@
 
 #include <boost/shared_ptr.hpp>
 
-ObjectPredictionNode::ObjectPredictionNode(int argc, char**argv) {
-	ros::init(argc, argv, "object_prediction_node");
-	nodeHandle_ = std::make_unique<ros::NodeHandle>();
-
-	netOutClient_ = nodeHandle_->serviceClient<custom_msgs::NetworkOutputSrv>("get_last_network_output");
-	actionClient_ = nodeHandle_->serviceClient<custom_msgs::ActionSrv>("get_last_action");
-
-	nodeHandle_->subscribe("network_out_imgs", 2, &ObjectPredictionNode::executePredictionForOutput, this);
-	outputPub_ =  nodeHandle_->advertise<custom_msgs::ImagesAndBoxes>("prediction_output", 10);
-}
-
 void ObjectPredictionNode::executePredictionForOutput(const custom_msgs::ImagesAndBoxes::ConstPtr& currNetOut) {
-	ROS_INFO("SUMMERTIME");
 	// call the services and get the latest data
 	custom_msgs::ImagesAndBoxes::ConstPtr lastNetOut = lastNetworkOutput();
 	custom_msgs::Action::ConstPtr lastAction = lastActionOutput();
@@ -32,6 +20,7 @@ void ObjectPredictionNode::executePredictionForOutput(const custom_msgs::ImagesA
 
 	// run the prediction
 	custom_msgs::ImagesAndBoxes imgBoxes = objPrediction_.performPrediction(currNetOut, lastNetOut, lastAction);
+	ROS_INFO("HI");
 	outputPub_.publish(imgBoxes);
 }
 
@@ -50,15 +39,20 @@ custom_msgs::Action::ConstPtr ObjectPredictionNode::lastActionOutput() {
 	return boost::make_shared<custom_msgs::Action const>(srv.response.result);
 }
 
-void ObjectPredictionNode::run() {
-	ROS_INFO("UP");
-	ros::spin();
-}
-
 int main(int argc, char **argv) {
 
-	ObjectPredictionNode node(argc, argv);
-	node.run();
+	ros::init(argc, argv, "object_prediction_node");
+	ros::NodeHandle nh;
+
+	ros::ServiceClient netOutClient = nh.serviceClient<custom_msgs::NetworkOutputSrv>("get_last_network_output");
+	ros::ServiceClient actionClient = nh.serviceClient<custom_msgs::ActionSrv>("get_last_action");
+	ros::Publisher outputPub =  nh.advertise<custom_msgs::ImagesAndBoxes>("prediction_output", 10);
+
+	ObjectPredictionNode objPredictionNode(netOutClient, actionClient, outputPub);
+
+	ros::Subscriber netOutSub = nh.subscribe("network_out_imgs", 2, &ObjectPredictionNode::executePredictionForOutput, &objPredictionNode);
+
+	ros::spin();
 	
 	return 0;
 }

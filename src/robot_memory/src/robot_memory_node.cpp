@@ -39,6 +39,7 @@ int main(int argc, char **argv) {
 
 		// setup subscribers to store data in memory
 	ros::Subscriber netOutputSub = nh.subscribe("network_out_imgs", 5, &RobotMemory::storeNetworkOutput, &robotMemory);
+	ros::Subscriber actionSub = nh.subscribe("dispatched_actions", 5, &RobotMemory::storeAction, &robotMemory);
 
 		// setup services
 	ros::ServiceServer lastOutputSrv = nh.advertiseService("get_last_network_output", &MemoryNode::lastestNetworkOutputSrv, &memoryNode);

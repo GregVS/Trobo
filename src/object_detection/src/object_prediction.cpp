@@ -4,4 +4,5 @@
 
 custom_msgs::ImagesAndBoxes ObjectPrediction::performPrediction(ImagesAndBoxesPtr& currImgBoxes, ImagesAndBoxesPtr& lastImgBoxes, ActionPtr& lastAction) {
 	ROS_INFO("Performing Prediction");
+	return *currImgBoxes;
 }
