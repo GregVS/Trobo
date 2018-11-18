@@ -9,7 +9,7 @@ class ScoopingNode {
 
 private:
 	ros::ServiceClient& memoryClient_;
-	ros::Publisher actionPub_;
+	ros::Publisher& actionPub_;
 
 	custom_msgs::ImagesAndBoxes::ConstPtr fetchLastNetworkOutput() {
 		custom_msgs::NetworkOutputSrv srv;
@@ -18,11 +18,13 @@ private:
 	}
 
 public:
-	ScoopingNode(ros::ServiceClient& memoryClient, ros::Publisher actionPub): memoryClient_(memoryClient), actionPub_(actionPub) {}
+	ScoopingNode(ros::ServiceClient& memoryClient, ros::Publisher& actionPub): memoryClient_(memoryClient), actionPub_(actionPub) {}
 
 	bool handleScooping(std_srvs::Empty::Request& req, std_srvs::Empty::Response& res) {
 		auto lastNetOut = fetchLastNetworkOutput();
+		ROS_INFO("FETCHED");
 		if (lastNetOut == nullptr || lastNetOut->bot_img_boxes.size() == 0) return false;
+		ROS_INFO("BUGGED");
 		for (auto const& box : lastNetOut->bot_img_boxes) {
 			if (box.left < 0.1 || box.right > 0.9) return false;
 		}
@@ -31,13 +33,14 @@ public:
 		custom_msgs::Action action;
 		action.id = 0;
 		actionPub_.publish(action);
+		ROS_INFO("SUP");
 		return true;
 	}
 
 };
 
 int main(int argc, char **argv) {
-	ros::init(argc, argv, "memory_node");
+	ros::init(argc, argv, "scooping_node");
 	ros::NodeHandle nh;
 
 	ros::ServiceClient memoryClient = nh.serviceClient<custom_msgs::NetworkOutputSrv>("get_last_network_output");
@@ -48,4 +51,6 @@ int main(int argc, char **argv) {
 	ros::ServiceServer scoopingSrv = nh.advertiseService("handle_scooping", &ScoopingNode::handleScooping, &scoopingNode);
 
 	ros::spin();
+
+	return 0;
 }

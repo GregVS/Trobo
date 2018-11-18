@@ -7,14 +7,16 @@ int main(int argc, char **argv) {
 	ros::NodeHandle nh;
 	ros::Rate updateRate(10); 
 
+	ros::service::waitForService("handle_scooping", -1);
 	ros::ServiceClient scoopingClient = nh.serviceClient<std_srvs::Empty>("handle_scooping");
 
+	ROS_INFO("ROS is running");
 	while(ros::ok()) {
-		ROS_INFO("ROS is running");
 
 		// Check if any scooping should take place
 		std_srvs::Empty empty;
-		scoopingClient.call(empty);
+		bool success = scoopingClient.call(empty);
+		if(success) ROS_INFO("SUCCESS");
 
 		ros::spinOnce();
 		updateRate.sleep();
