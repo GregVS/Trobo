@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: main_processor
+Description: Description of main_processor
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

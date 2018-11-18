@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: robot_memory
+Description: Description of robot_memory
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

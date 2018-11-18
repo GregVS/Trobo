@@ -21,7 +21,7 @@ public:
 	void executePredictionForOutput(const custom_msgs::ImagesAndBoxes::ConstPtr& msg);
 	void run();
 
-	custom_msgs::ImagesAndBoxes::ConstPtr lastNetworkOutput();
-	custom_msgs::Action::ConstPtr lastActionOutput();
+	custom_msgs::ImagesAndBoxes::ConstPtr prevNetworkOutput();
+	custom_msgs::Action::ConstPtr prevActionOutput();
 
 };

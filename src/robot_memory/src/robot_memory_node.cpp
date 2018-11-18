@@ -1,6 +1,6 @@
 #include "ros/ros.h"
 #include "robot_memory.h"
-#include <custom_msgs/NetworkOutputSrv.h>
+#include <custom_msgs/ImagesAndBoxesSrv.h>
 #include <custom_msgs/ActionSrv.h>
 
 #include <memory>
@@ -10,17 +10,24 @@ class MemoryNode {
 public:
 	MemoryNode(RobotMemory& robotMemory) : robotMemory_(robotMemory) {}
 
-	bool lastestNetworkOutputSrv(custom_msgs::NetworkOutputSrv::Request& req, custom_msgs::NetworkOutputSrv::Response& res) {
-		auto output = robotMemory_.lastNetworkOutput();
+	bool fetchNetworkOutputSrv(custom_msgs::ImagesAndBoxesSrv::Request& req, custom_msgs::ImagesAndBoxesSrv::Response& res) {
+		auto output = robotMemory_.fetchNetworkOutput(req.skips);
 		if (output == nullptr) return false;
 		res.result = *output;
 		return true;
 	}
 
-	bool lastActionSrv(custom_msgs::ActionSrv::Request& req, custom_msgs::ActionSrv::Response& res) {
-		auto action = robotMemory_.lastAction();
+	bool fetchActionSrv(custom_msgs::ActionSrv::Request& req, custom_msgs::ActionSrv::Response& res) {
+		auto action = robotMemory_.fetchAction(req.skips);
 		if (action == nullptr) return false;
 		res.result = *action;
+		return true;
+	}
+
+	bool fetchPredictionOutputSrv(custom_msgs::ImagesAndBoxesSrv::Request& req, custom_msgs::ImagesAndBoxesSrv::Response& res) {
+		auto output = robotMemory_.fetchPredictionOutput(req.skips);
+		if (output == nullptr) return false;
+		res.result = *output;
 		return true;
 	}
 
@@ -42,8 +49,9 @@ int main(int argc, char **argv) {
 	ros::Subscriber actionSub = nh.subscribe("dispatched_actions", 5, &RobotMemory::storeAction, &robotMemory);
 
 		// setup services
-	ros::ServiceServer lastOutputSrv = nh.advertiseService("get_last_network_output", &MemoryNode::lastestNetworkOutputSrv, &memoryNode);
-	ros::ServiceServer lastActionSrv = nh.advertiseService("get_last_action", &MemoryNode::lastActionSrv, &memoryNode);
+	ros::ServiceServer fetchNetOutput = nh.advertiseService("fetch_network_output", &MemoryNode::fetchNetworkOutputSrv, &memoryNode);
+	ros::ServiceServer fetchAction = nh.advertiseService("fetch_action", &MemoryNode::fetchActionSrv, &memoryNode);
+	ros::ServiceServer fetchPredictionOut = nh.advertiseService("fetch_prediction_output", &MemoryNode::fetchPredictionOutputSrv, &memoryNode);
 
 	ros::spin();
 	

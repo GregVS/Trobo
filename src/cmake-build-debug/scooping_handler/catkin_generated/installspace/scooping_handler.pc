@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: scooping_handler
+Description: Description of scooping_handler
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

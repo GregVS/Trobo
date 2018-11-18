@@ -16,7 +16,6 @@ int main(int argc, char **argv) {
 		// Check if any scooping should take place
 		std_srvs::Empty empty;
 		bool success = scoopingClient.call(empty);
-		if(success) ROS_INFO("SUCCESS");
 
 		ros::spinOnce();
 		updateRate.sleep();

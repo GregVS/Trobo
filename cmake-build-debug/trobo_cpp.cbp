@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="trobo_cpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/greg/trobo_cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/greg/trobo_cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/greg/trobo_cpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trobo_cpp">
+				<Option output="/home/greg/trobo_cpp/cmake-build-debug/trobo_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/greg/trobo_cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/include"/>
+					<Add directory="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/include/sensor_msgs"/>
+					<Add directory="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/include/sensor_msgs/impl"/>
+					<Add directory="/home/greg/trobo_cpp/src/object_detection/src"/>
+					<Add directory="/home/greg/trobo_cpp/src/robot_memory/src"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/include"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/include/cv_bridge"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/core"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/endian"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/endian/detail"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/detail"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/library"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/library/c"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/os"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/os/bsd"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/other"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/image_geometry/include"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/image_geometry/include/image_geometry"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 trobo_cpp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trobo_cpp/fast">
+				<Option output="/home/greg/trobo_cpp/cmake-build-debug/trobo_cpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/greg/trobo_cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/include"/>
+					<Add directory="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/include/sensor_msgs"/>
+					<Add directory="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/include/sensor_msgs/impl"/>
+					<Add directory="/home/greg/trobo_cpp/src/object_detection/src"/>
+					<Add directory="/home/greg/trobo_cpp/src/robot_memory/src"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/include"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/include/cv_bridge"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/core"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/endian"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/endian/detail"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/detail"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/library"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/library/c"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/os"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/os/bsd"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/other"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/image_geometry/include"/>
+					<Add directory="/home/greg/trobo_cpp/src/vision_opencv/image_geometry/include/image_geometry"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 trobo_cpp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/greg/trobo_cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/greg/trobo_cpp/robot.launch">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/CMakeLists.txt">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/include/sensor_msgs/distortion_models.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/include/sensor_msgs/fill_image.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/include/sensor_msgs/image_encodings.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/include/sensor_msgs/impl/point_cloud2_iterator.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/include/sensor_msgs/point_cloud2_iterator.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/include/sensor_msgs/point_cloud_conversion.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/include/sensor_msgs/point_field_conversion.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/test/main.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/common_msgs/sensor_msgs/test/test_image_encodings.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/custom_msgs/CMakeLists.txt">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/custom_msgs/msg/Action.msg">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/custom_msgs/msg/Box.msg">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/custom_msgs/msg/ImagesAndBoxes.msg">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/custom_msgs/msg/PredictionBoxes.msg">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/custom_msgs/msg/RobotImages.msg">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/custom_msgs/package.xml">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/custom_msgs/srv/ActionSrv.srv">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/custom_msgs/srv/ImagesAndBoxesSrv.srv">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/images_displayer/CMakeLists.txt">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/images_displayer/package.xml">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/images_displayer/src/images_displayer.py">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/images_displayer/src/network_output_displayer.py">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/main_processor/src/processor_node.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/navigation/src/navigation_node.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/object_detection/src/object_prediction.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/object_detection/src/object_prediction.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/object_detection/src/object_prediction_node.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/object_detection/src/object_prediction_node.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/robot_memory/src/robot_memory.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/robot_memory/src/robot_memory_node.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/scooping_handler/src/scooping_node.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/include/cv_bridge/cv_bridge.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/include/cv_bridge/rgb_colors.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/core/scoped_enum.hpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/endian/conversion.hpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/endian/detail/intrinsic.hpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/detail/_cassert.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/detail/endian_compat.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/detail/test.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/library/c/_prefix.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/library/c/gnu.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/make.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/os/android.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/os/bsd.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/os/bsd/bsdi.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/os/bsd/dragonfly.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/os/bsd/free.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/os/bsd/net.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/os/bsd/open.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/os/ios.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/os/macos.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/other/endian.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/boost/predef/version_number.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/cv_bridge.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/module.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/module.hpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/module_opencv2.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/module_opencv3.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/pycompat.hpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/src/rgb_colors.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/test/test_compression.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/test/test_endian.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/test/test_rgb_colors.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/test/utest.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/cv_bridge/test/utest2.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/image_geometry/include/image_geometry/pinhole_camera_model.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/image_geometry/include/image_geometry/stereo_camera_model.h">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/image_geometry/src/pinhole_camera_model.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/image_geometry/src/stereo_camera_model.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/src/vision_opencv/image_geometry/test/utest.cpp">
+			<Option target="trobo_cpp"/>
+		</Unit>
+		<Unit filename="/home/greg/trobo_cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

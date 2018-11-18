@@ -1,0 +1,147 @@
+/home/greg/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/greg/trobo_cpp/src
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/greg/trobo_cpp/src/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/greg/trobo_cpp/devel;/home/greg/Arduino/ros/devel;/home/greg/trobo/devel;/opt/ros/melodic
+-- This workspace overlays: /home/greg/trobo_cpp/devel;/home/greg/Arduino/ros/devel;/home/greg/trobo/devel;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.15", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/greg/trobo_cpp/src/cmake-build-debug/test_results
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.15") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 21 packages in topological order:
+-- ~~  - common_msgs (metapackage)
+-- ~~  - opencv_tests
+-- ~~  - actionlib_msgs
+-- ~~  - diagnostic_msgs
+-- ~~  - geometry_msgs
+-- ~~  - nav_msgs
+-- ~~  - shape_msgs
+-- ~~  - trajectory_msgs
+-- ~~  - vision_opencv (metapackage)
+-- ~~  - visualization_msgs
+-- ~~  - main_processor
+-- ~~  - sensor_msgs
+-- ~~  - custom_msgs
+-- ~~  - cv_bridge
+-- ~~  - image_geometry
+-- ~~  - images_displayer
+-- ~~  - navigation
+-- ~~  - object_detection
+-- ~~  - robot_memory
+-- ~~  - scooping_handler
+-- ~~  - stereo_msgs
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin metapackage: 'common_msgs'
+-- ==> add_subdirectory(common_msgs/common_msgs)
+-- +++ processing catkin package: 'opencv_tests'
+-- ==> add_subdirectory(vision_opencv/opencv_tests)
+-- +++ processing catkin package: 'actionlib_msgs'
+-- ==> add_subdirectory(common_msgs/actionlib_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- actionlib_msgs: 3 messages, 0 services
+-- +++ processing catkin package: 'diagnostic_msgs'
+-- ==> add_subdirectory(common_msgs/diagnostic_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- diagnostic_msgs: 3 messages, 2 services
+-- +++ processing catkin package: 'geometry_msgs'
+-- ==> add_subdirectory(common_msgs/geometry_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- geometry_msgs: 29 messages, 0 services
+-- +++ processing catkin package: 'nav_msgs'
+-- ==> add_subdirectory(common_msgs/nav_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Generating .msg files for action nav_msgs/GetMap /home/greg/trobo_cpp/src/common_msgs/nav_msgs/action/GetMap.action
+Generating for action GetMap
+-- nav_msgs: 12 messages, 3 services
+-- +++ processing catkin package: 'shape_msgs'
+-- ==> add_subdirectory(common_msgs/shape_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- shape_msgs: 4 messages, 0 services
+-- +++ processing catkin package: 'trajectory_msgs'
+-- ==> add_subdirectory(common_msgs/trajectory_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- trajectory_msgs: 4 messages, 0 services
+-- +++ processing catkin metapackage: 'vision_opencv'
+-- ==> add_subdirectory(vision_opencv/vision_opencv)
+-- +++ processing catkin package: 'visualization_msgs'
+-- ==> add_subdirectory(common_msgs/visualization_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- visualization_msgs: 10 messages, 0 services
+-- +++ processing catkin package: 'main_processor'
+-- ==> add_subdirectory(main_processor)
+-- +++ processing catkin package: 'sensor_msgs'
+-- ==> add_subdirectory(common_msgs/sensor_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- sensor_msgs: 27 messages, 1 services
+-- +++ processing catkin package: 'custom_msgs'
+-- ==> add_subdirectory(custom_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- custom_msgs: 4 messages, 2 services
+CMake Warning at /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:166 (message):
+  catkin_package() DEPENDS on 'system_lib' but neither
+  'system_lib_INCLUDE_DIRS' nor 'system_lib_LIBRARIES' is defined.
+Call Stack (most recent call first):
+  /opt/ros/melodic/share/catkin/cmake/catkin_package.cmake:102 (_catkin_package)
+  custom_msgs/CMakeLists.txt:106 (catkin_package)
+
+
+-- +++ processing catkin package: 'cv_bridge'
+-- ==> add_subdirectory(vision_opencv/cv_bridge)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so (found version "2.7.15rc1") 
+-- Boost version: 1.65.1
+-- Found the following Boost libraries:
+--   python
+-- Found OpenCV: /usr (found suitable version "3.2.0", minimum required is "3") found components:  opencv_core opencv_imgproc opencv_imgcodecs 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so (found suitable version "2.7.15rc1", minimum required is "2.7") 
+-- +++ processing catkin package: 'image_geometry'
+-- ==> add_subdirectory(vision_opencv/image_geometry)
+-- Found OpenCV: /usr (found version "3.2.0") 
+-- +++ processing catkin package: 'images_displayer'
+-- ==> add_subdirectory(images_displayer)
+-- +++ processing catkin package: 'navigation'
+-- ==> add_subdirectory(navigation)
+-- +++ processing catkin package: 'object_detection'
+-- ==> add_subdirectory(object_detection)
+-- +++ processing catkin package: 'robot_memory'
+-- ==> add_subdirectory(robot_memory)
+-- Boost version: 1.65.1
+-- +++ processing catkin package: 'scooping_handler'
+-- ==> add_subdirectory(scooping_handler)
+-- +++ processing catkin package: 'stereo_msgs'
+-- ==> add_subdirectory(common_msgs/stereo_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- stereo_msgs: 1 messages, 0 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/greg/trobo_cpp/src/cmake-build-debug

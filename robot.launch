@@ -1,0 +1,10 @@
+<launch>
+
+	<node pkg="main_processor" name="main_processor" type="main_processor_node" output="screen"/>\
+	<node pkg="scooping_handler" name="scooping_handler" type="scooping_handler_node" output="screen"/>
+	<node pkg="robot_memory" name="memory_services" type="robot_memory_node" output="screen"/>
+
+	<node pkg="images_displayer" name="network_output_displayer" type="network_output_displayer.py" output="screen"/>
+	<node pkg="object_detection" name="tensorflow_obj_node" type="tensorflow_obj_node.py" output="screen"/>
+
+</launch>
