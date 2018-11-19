@@ -1,0 +1,3 @@
+<launch>
+    <test test-name="Unit-Tests" pkg="robot_memory" type="robot_memory-test" name="RobotMemoryTest"/>
+</launch>

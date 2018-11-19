@@ -4,40 +4,39 @@
 //include services
 #include <custom_msgs/ImagesAndBoxesSrv.h>
 #include <custom_msgs/ActionSrv.h>
-
-#include <boost/shared_ptr.hpp>
+#include <memory>
 
 void ObjectPredictionNode::executePredictionForOutput(const custom_msgs::ImagesAndBoxes::ConstPtr& currNetOut) {
 	// call the services and get the latest data
-	custom_msgs::ImagesAndBoxes::ConstPtr lastNetOut = prevNetworkOutput();
-	custom_msgs::Action::ConstPtr lastAction = prevActionOutput();
+	std::unique_ptr<custom_msgs::ImagesAndBoxes const> lastNetOut = prevNetworkOutput();
+	std::unique_ptr<custom_msgs::Action const> lastAction = prevActionOutput();
 
 	// if either were unattainable then do not perform any prediction
-	if (lastAction == nullptr || lastNetOut == nullptr) {
+	if (!lastAction || !lastNetOut) {
 		outputPub_.publish(*currNetOut);
 		return;
 	}
 
 	// run the prediction
-	custom_msgs::ImagesAndBoxes imgBoxes = objPrediction_.performPrediction(currNetOut, lastNetOut, lastAction);
+	custom_msgs::ImagesAndBoxes imgBoxes = objPrediction_.performPrediction(*currNetOut, *lastNetOut, *lastAction);
 	outputPub_.publish(imgBoxes);
 }
 
 
 // Calls the memory service to get the last network output
-custom_msgs::ImagesAndBoxes::ConstPtr ObjectPredictionNode::prevNetworkOutput() {
+std::unique_ptr<custom_msgs::ImagesAndBoxes const> ObjectPredictionNode::prevNetworkOutput() {
 	custom_msgs::ImagesAndBoxesSrv srv;
 	srv.request.skips = 1;
 	if (!netOutClient_.call(srv)) return nullptr;
-	return boost::make_shared<custom_msgs::ImagesAndBoxes const>(srv.response.result);
+	return std::make_unique<custom_msgs::ImagesAndBoxes const>(srv.response.result);
 }
 
 // Calls the memory service to get the last action sent to the robot
-custom_msgs::Action::ConstPtr ObjectPredictionNode::prevActionOutput() {
+std::unique_ptr<custom_msgs::Action const> ObjectPredictionNode::prevActionOutput() {
 	custom_msgs::ActionSrv srv;
 	srv.request.skips = 1;
 	if (!actionClient_.call(srv)) return nullptr;
-	return boost::make_shared<custom_msgs::Action const>(srv.response.result);
+    return std::make_unique<custom_msgs::Action const>(srv.response.result);
 }
 
 int main(int argc, char **argv) {

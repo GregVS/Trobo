@@ -1,0 +1,8 @@
+prefix=/home/greg/trobo_cpp/install
+
+Name: scooping_handler
+Description: Description of scooping_handler
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/greg/trobo_cpp/install/lib 
+Requires: 

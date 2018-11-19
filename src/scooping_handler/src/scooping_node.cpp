@@ -4,30 +4,32 @@
 #include <custom_msgs/Action.h>
 #include <boost/shared_ptr.hpp>
 #include <vector>
+#include <memory>
 
 class ScoopingNode {
 
 private:
-	ros::ServiceClient& memoryClient_;
+	ros::ServiceClient& predictionClient_;
 	ros::Publisher& actionPub_;
 
-	custom_msgs::ImagesAndBoxes::ConstPtr fetchLastNetworkOutput() {
+	std::unique_ptr<custom_msgs::ImagesAndBoxes const> fetchLastNetworkOutput() {
 		custom_msgs::ImagesAndBoxesSrv srv;
-		if(!memoryClient_.call(srv)) return nullptr;
-		return boost::make_shared<custom_msgs::ImagesAndBoxes const>(srv.response.result);
+		if(!predictionClient_.call(srv)) return nullptr;
+		return std::make_unique<custom_msgs::ImagesAndBoxes const>(srv.response.result);
 	}
 
 public:
-	ScoopingNode(ros::ServiceClient& memoryClient, ros::Publisher& actionPub): memoryClient_(memoryClient), actionPub_(actionPub) {}
+	ScoopingNode(ros::ServiceClient& predictionClient, ros::Publisher& actionPub): predictionClient_(predictionClient), actionPub_(actionPub) {}
 
 	bool handleScooping(std_srvs::Empty::Request& req, std_srvs::Empty::Response& res) {
 		auto lastNetOut = fetchLastNetworkOutput();
-		if (lastNetOut == nullptr || lastNetOut->bot_img_boxes.size() == 0) return false;
+		if (lastNetOut == nullptr || lastNetOut->bot_img_boxes.empty()) return false;
 		for (auto const& box : lastNetOut->bot_img_boxes) {
 			if (box.left < 0.1 || box.right > 0.9) return false;
 		}
 
 		// signal that you want to scoop up the trash
+
 		custom_msgs::Action action;
 		action.id = 0;
 		actionPub_.publish(action);
@@ -40,12 +42,12 @@ int main(int argc, char **argv) {
 	ros::init(argc, argv, "scooping_node");
 	ros::NodeHandle nh;
 
-	ros::service::waitForService("fetch_network_output", -1);
+	ros::service::waitForService("fetch_prediction_output", -1);
 
-	ros::ServiceClient memoryClient = nh.serviceClient<custom_msgs::ImagesAndBoxesSrv>("fetch_network_output");
+	ros::ServiceClient predictionClient = nh.serviceClient<custom_msgs::ImagesAndBoxesSrv>("fetch_prediction_output");
 	ros::Publisher actionPub = nh.advertise<custom_msgs::Action>("action_intents", 5);
 
-	ScoopingNode scoopingNode(memoryClient, actionPub);
+	ScoopingNode scoopingNode(predictionClient, actionPub);
 
 	ros::ServiceServer scoopingSrv = nh.advertiseService("handle_scooping", &ScoopingNode::handleScooping, &scoopingNode);
 

@@ -1,0 +1,8 @@
+prefix=/home/greg/trobo_cpp/install
+
+Name: robot_memory
+Description: Description of robot_memory
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/greg/trobo_cpp/install/lib 
+Requires: 

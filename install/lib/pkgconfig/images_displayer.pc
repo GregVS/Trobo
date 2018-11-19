@@ -1,0 +1,8 @@
+prefix=/home/greg/trobo_cpp/install
+
+Name: images_displayer
+Description: Description of images_displayer
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/greg/trobo_cpp/install/lib 
+Requires: 
