@@ -8,15 +8,18 @@ class NavigationNode {
 
 private:
 	ros::ServiceClient& netOutClient_;
+	ros::Publisher& actionPub_;
 	Navigator navigator_;
 
 public:
-    explicit NavigationNode(ros::ServiceClient& netOutClient): netOutClient_(netOutClient) {}
+    explicit NavigationNode(ros::ServiceClient& netOutClient, ros::Publisher& actionPub) :
+    	netOutClient_(netOutClient),
+    	actionPub_(actionPub) {}
 
 	bool navigate(std_srvs::Empty::Request& req, std_srvs::Empty::Response& res) {
 		auto imgAndBoxes = fetchPredictionOutput();
 		if(!imgAndBoxes) return false;
-		navigator_.navigate(*imgAndBoxes);
+		actionPub_.publish(navigator_.chooseNavigationAction(*imgAndBoxes));
 		return true;
 	}
 
@@ -34,10 +37,12 @@ int main(int argc, char **argv) {
 
 	ros::service::waitForService("fetch_prediction_output", -1);
 	ros::ServiceClient netOutClient = nh.serviceClient<custom_msgs::ImagesAndBoxesSrv>("fetch_prediction_output");
+	ros::Publisher actionPub = nh.advertise<custom_msgs::Action>("action_intents", 5);
 
-	NavigationNode navigationNode(netOutClient);
+	NavigationNode navigationNode(netOutClient, actionPub);
 
 	ros::ServiceServer navigationSrv = nh.advertiseService("navigation", &NavigationNode::navigate, &navigationNode);
 
+	ros::spin();
 	return 0;
 }

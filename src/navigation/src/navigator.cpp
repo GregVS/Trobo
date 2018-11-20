@@ -4,35 +4,37 @@
 
 #include "navigator.h"
 #include <vector>
-#include <algorithm>
-#include <cmath>
 
-custom_msgs::Action Navigator::navigate(const custom_msgs::ImagesAndBoxes &imgAndBoxes) {
-    if(imgAndBoxes.top_img_boxes.empty()) {
-        custom_msgs::Action action;
-        action.id = 2;
-        return action;
-    }
-    if (!verifyTrackedBoxExists(imgAndBoxes.top_img_boxes)) {
-        trackedBox_ = std::make_unique<custom_msgs::Box>(nearestBox(imgAndBoxes.top_img_boxes));
-    }
-
+custom_msgs::Action Navigator::chooseNavigationAction(const custom_msgs::ImagesAndBoxes &imgAndBoxes) {
+    if(imgAndBoxes.top_img_boxes.empty()) return stopAction(); // required precondition for updateBox
+    boxTracker_.updateBox(imgAndBoxes.top_img_boxes);
+    if (shouldDriveForward()) return forwardAction();
+    else return turnAction();
 }
 
-bool Navigator::shouldDriveStraight(const custom_msgs::ImagesAndBoxes &imgAndBoxes) {
-
+bool Navigator::shouldDriveForward() {
+    const custom_msgs::Box trackedBox = boxTracker_.trackedBox();
+    return std::abs((trackedBox.left + trackedBox.right) / 2.0f - 0.5f) < 0.2;
 }
 
-custom_msgs::Box Navigator::nearestBox(std::vector<custom_msgs::Box> boxes) {
-    auto it = std::min_element(boxes.begin(), boxes.end(), [](const custom_msgs::Box& box1, const custom_msgs::Box& box2) {
-        return std::abs((box1.left + box1.right) / 2.0f - 0.5f) < std::abs((box2.left + box2.right) / 2.0f - 0.5f);
-    });
-    assert(it != boxes.end());
-    return *it;
+custom_msgs::Action Navigator::forwardAction() {
+    custom_msgs::Action action;
+    action.id = 1;
+    action.params = { 1.0, 1.0 };
+    return action;
 }
 
-bool Navigator::verifyTrackedBoxExists(std::vector<custom_msgs::Box> boxes) {
-    if (!trackedBox_) return false;
-    auto it = std::find_if(boxes.begin(), boxes.end(), [this] (const custom_msgs::Box& box) { return trackedBox_->id == box.id; });
-    return it != boxes.end();
+custom_msgs::Action Navigator::turnAction() {
+    const custom_msgs::Box trackedBox = boxTracker_.trackedBox();
+    bool boxOnRightSide = (trackedBox.left + trackedBox.right) / 2.0f > 0.5f;
+    custom_msgs::Action action;
+    action.id = 1;
+    action.params = { boxOnRightSide ? 0.5f : 0.0f, boxOnRightSide ? 0.0f : 0.5f };
+    return action;
+}
+
+custom_msgs::Action Navigator::stopAction() {
+    custom_msgs::Action action;
+    action.id = 2;
+    return action;
 }

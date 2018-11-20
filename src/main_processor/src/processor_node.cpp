@@ -8,14 +8,18 @@ int main(int argc, char **argv) {
 	ros::Rate updateRate(10); 
 
 	ros::service::waitForService("handle_scooping", -1);
+	ros::service::waitForService("navigation", -1);
+
 	ros::ServiceClient scoopingClient = nh.serviceClient<std_srvs::Empty>("handle_scooping");
+	ros::ServiceClient navigationClient = nh.serviceClient<std_srvs::Empty>("navigation");
 
 	ROS_INFO("ROS is running");
 	while(ros::ok()) {
 
 		// Check if any scooping should take place
 		std_srvs::Empty empty;
-		bool success = scoopingClient.call(empty);
+		scoopingClient.call(empty);
+		navigationClient.call(empty);
 
 		ros::spinOnce();
 		updateRate.sleep();
