@@ -1,0 +1,5 @@
+find_package(catch_ros REQUIRED)
+include_directories(${catkin_INCLUDE_DIRS})
+catch_add_test(robot_memory_test test_robot_memory.cpp)
+target_include_directories(robot_memory_test PUBLIC ../src)
+target_link_libraries(robot_memory_test ${catkin_LIBRARIES})

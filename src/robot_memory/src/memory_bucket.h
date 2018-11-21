@@ -18,7 +18,7 @@ public:
 	void storeDataInBuffer(const typename DataType::ConstPtr& output) { buffer_.push_back(output); }
 
 	// gets the most recently added output
-	typename DataType::ConstPtr fetchDataFromBuffer(uint8_t skips) {
+	typename DataType::ConstPtr fetchDataFromBuffer(uint8_t skips) const {
 		int pos = buffer_.size() - (skips + 1);
 		if (pos < 0) return nullptr;
 		return buffer_[buffer_.size() - (skips + 1)];

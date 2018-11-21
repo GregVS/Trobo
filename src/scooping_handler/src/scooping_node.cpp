@@ -4,7 +4,7 @@
 #include <custom_msgs/Action.h>
 #include <boost/shared_ptr.hpp>
 #include <vector>
-#include <memory>
+#include <optional>
 
 class ScoopingNode {
 
@@ -12,10 +12,10 @@ private:
 	ros::ServiceClient& predictionClient_;
 	ros::Publisher& actionPub_;
 
-	std::unique_ptr<custom_msgs::ImagesAndBoxes const> fetchLastNetworkOutput() {
+	std::optional<custom_msgs::ImagesAndBoxes const> fetchLastNetworkOutput() {
 		custom_msgs::ImagesAndBoxesSrv srv;
-		if(!predictionClient_.call(srv)) return nullptr;
-		return std::make_unique<custom_msgs::ImagesAndBoxes const>(srv.response.result);
+		if(!predictionClient_.call(srv)) return std::nullopt;
+		return { srv.response.result };
 	}
 
 public:
@@ -23,7 +23,7 @@ public:
 
 	bool handleScooping(std_srvs::Empty::Request& req, std_srvs::Empty::Response& res) {
 		auto lastNetOut = fetchLastNetworkOutput();
-		if (lastNetOut == nullptr || lastNetOut->bot_img_boxes.empty()) return false;
+		if (!lastNetOut || lastNetOut->bot_img_boxes.empty()) return false;
 		for (auto const& box : lastNetOut->bot_img_boxes) {
 			if (box.left < 0.1 || box.right > 0.9) return false;
 		}

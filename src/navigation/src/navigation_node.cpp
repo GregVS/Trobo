@@ -2,7 +2,7 @@
 #include <std_srvs/Empty.h>
 #include <custom_msgs/ImagesAndBoxesSrv.h>
 #include "navigator.h"
-#include <memory>
+#include <optional>
 
 class NavigationNode {
 
@@ -23,10 +23,10 @@ public:
 		return true;
 	}
 
-	std::unique_ptr<custom_msgs::ImagesAndBoxes const> fetchPredictionOutput() {
+	std::optional<custom_msgs::ImagesAndBoxes const> fetchPredictionOutput() {
 		custom_msgs::ImagesAndBoxesSrv srv;
-		if (!netOutClient_.call(srv)) return nullptr;
-		return std::make_unique<custom_msgs::ImagesAndBoxes const>(srv.response.result);
+		if (!netOutClient_.call(srv)) return std::nullopt;
+		return { srv.response.result };
 	}
 
 };

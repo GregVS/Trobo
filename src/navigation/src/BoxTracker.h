@@ -10,20 +10,20 @@
 class BoxTracker {
 
 private:
-    std::unique_ptr<custom_msgs::Box> trackedBox_;
+    std::unique_ptr<const custom_msgs::Box> trackedBox_;
 
     // PRECONDITION: boxes list is not empty
     // will return true if it was able to update the tracked box or false if it did not exist
-    bool updateTrackedBoxIfExists(std::vector<custom_msgs::Box> boxes);
+    bool updateTrackedBoxIfExists(const std::vector<custom_msgs::Box>& boxes);
 
     // this algorithm basically just for now picks the other that is closest to the center
-    custom_msgs::Box bestBoxToTrack(std::vector<custom_msgs::Box> boxes);
+    const custom_msgs::Box bestBoxToTrack(const std::vector<custom_msgs::Box>& boxes) const;
 
 public:
-    void updateBox(std::vector<custom_msgs::Box> boxes);
+    void updateBox(const std::vector<custom_msgs::Box>& boxes);
 
     // PRECONDITION: tracked box must not be null (call updateBox first)
-    const custom_msgs::Box trackedBox() const { assert(trackedBox_ != nullptr); return *trackedBox_; }
+    const custom_msgs::Box trackedBox() { assert(trackedBox_ != nullptr); return *trackedBox_; }
 
 };
 

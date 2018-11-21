@@ -1,5 +1,5 @@
 #include <catch_ros/catch.hpp>
-#include "../src/memory_bucket.h"
+#include <memory_bucket.h>
 
 #include <boost/make_shared.hpp>
 #include <boost/shared_ptr.hpp>

@@ -6,7 +6,7 @@
 #include <custom_msgs/Action.h>
 #include "object_prediction.h"
 
-#include <memory>
+#include <optional>
 
 class ObjectPredictionNode {
 
@@ -23,8 +23,8 @@ public:
 
 	void executePredictionForOutput(const custom_msgs::ImagesAndBoxes::ConstPtr& currNetOut);
 
-    std::unique_ptr<custom_msgs::ImagesAndBoxes const> prevNetworkOutput();
-	std::unique_ptr<custom_msgs::Action const> prevActionOutput();
+    std::optional<custom_msgs::ImagesAndBoxes const> prevNetworkOutput();
+	std::optional<custom_msgs::Action const> prevActionOutput();
 
 };
 

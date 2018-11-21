@@ -4,7 +4,7 @@
 
 #include "BoxTracker.h"
 
-custom_msgs::Box BoxTracker::bestBoxToTrack(std::vector<custom_msgs::Box> boxes) {
+const custom_msgs::Box BoxTracker::bestBoxToTrack(const std::vector<custom_msgs::Box>& boxes) const {
     auto it = std::min_element(boxes.begin(), boxes.end(), [](const custom_msgs::Box& box1, const custom_msgs::Box& box2) {
         return std::abs((box1.left + box1.right) / 2.0f - 0.5f) < std::abs((box2.left + box2.right) / 2.0f - 0.5f);
     });
@@ -12,7 +12,7 @@ custom_msgs::Box BoxTracker::bestBoxToTrack(std::vector<custom_msgs::Box> boxes)
     return *it;
 }
 
-bool BoxTracker::updateTrackedBoxIfExists(std::vector<custom_msgs::Box> boxes) {
+bool BoxTracker::updateTrackedBoxIfExists(const std::vector<custom_msgs::Box>& boxes) {
     if (!trackedBox_) return false;
     auto it = std::find_if(boxes.begin(), boxes.end(), [this] (const custom_msgs::Box& box) { return trackedBox_->id == box.id; });
     if (it == boxes.end()) return false;
@@ -21,9 +21,9 @@ bool BoxTracker::updateTrackedBoxIfExists(std::vector<custom_msgs::Box> boxes) {
 }
 
 
-void BoxTracker::updateBox(std::vector<custom_msgs::Box> boxes) {
+void BoxTracker::updateBox(const std::vector<custom_msgs::Box>& boxes) {
     if (!updateTrackedBoxIfExists(boxes)) {
-        trackedBox_ = std::make_unique<custom_msgs::Box>(bestBoxToTrack(boxes));
+        trackedBox_ = std::make_unique<const custom_msgs::Box>(bestBoxToTrack(boxes));
     }
     assert(trackedBox_ != nullptr);
 }

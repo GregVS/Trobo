@@ -1,23 +1,16 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(robot_memory)
+project(action_dispatcher)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
-add_compile_options(-std=c++14)
+# add_compile_options(-std=c++11)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  roscpp
-  catch_ros
   custom_msgs
+  roscpp
 )
-
-find_package(
-  Boost
-)
-
-enable_testing()
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -76,7 +69,7 @@ enable_testing()
 ## Generate added messages and services with any dependencies listed here
 # generate_messages(
 #   DEPENDENCIES
-#   std_msgs  # Or other packages containing msgs
+#   custom_msgs
 # )
 
 ################################################
@@ -110,8 +103,8 @@ enable_testing()
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES robot_memory
-#  CATKIN_DEPENDS roscpp
+#  LIBRARIES action_dispatcher
+#  CATKIN_DEPENDS custom_msgs roscpp
 #  DEPENDS system_lib
 )
 
@@ -122,13 +115,13 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-  include
+# include
   ${catkin_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/robot_memory.cpp
+#   src/${PROJECT_NAME}/action_dispatcher.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -139,7 +132,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(robot_memory_node src/robot_memory_node.cpp)
+ add_executable(${PROJECT_NAME}_node src/action_dispatcher_node.cpp src/action_dispatcher_node.h)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -149,12 +142,12 @@ add_executable(robot_memory_node src/robot_memory_node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+ add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-target_link_libraries(robot_memory_node
-  ${catkin_LIBRARIES}
-)
+target_link_libraries(${PROJECT_NAME}_node
+   ${catkin_LIBRARIES}
+ )
 
 #############
 ## Install ##
@@ -178,11 +171,11 @@ target_link_libraries(robot_memory_node
 # )
 
 ## Mark cpp header files for installation
- install(DIRECTORY include/${PROJECT_NAME}/
-   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
-   FILES_MATCHING PATTERN "*.h"
-   PATTERN ".svn" EXCLUDE
- )
+# install(DIRECTORY include/${PROJECT_NAME}/
+#   DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
+#   FILES_MATCHING PATTERN "*.h"
+#   PATTERN ".svn" EXCLUDE
+# )
 
 ## Mark other files for installation (e.g. launch and bag files, etc.)
 # install(FILES
@@ -196,14 +189,10 @@ target_link_libraries(robot_memory_node
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_robot_memory.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_action_dispatcher.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
-
-if (CATKIN_ENABLE_TESTING)
-    add_subdirectory(tests)
-endif()
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
