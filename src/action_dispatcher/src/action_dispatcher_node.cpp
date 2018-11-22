@@ -21,7 +21,7 @@ void ActionDispatcherNode::addActionIntent(const custom_msgs::ActionConstPtr& ac
 
 int main(int argc, char **argv) {
 
-    ros::init(argc, argv, "memory_node");
+    ros::init(argc, argv, "action_dispatcher");
     ros::NodeHandle nh;
 
     ros::Publisher dispatchPub = nh.advertise<custom_msgs::Action>("dispatched_actions", 5);
@@ -32,6 +32,7 @@ int main(int argc, char **argv) {
     ros::ServiceServer dispatchSrv = nh.advertiseService("dispatch_action", &ActionDispatcherNode::dispatchSrv, &dispatcherNode);
     ros::Subscriber intentSub = nh.subscribe("action_intents", 10, &ActionDispatcherNode::addActionIntent, &dispatcherNode);
 
+    ROS_INFO("Action dispatcher running...");
     ros::spin();
 
     return 0;

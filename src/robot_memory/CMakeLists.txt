@@ -14,7 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 find_package(
-  Boost
+    Boost
 )
 
 enable_testing()

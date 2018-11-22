@@ -19,13 +19,11 @@ public:
 private:
     BoxTracker boxTracker_;
 
-    bool shouldDriveForward();
+    bool shouldDriveForward() const;
 
-    custom_msgs::Action forwardAction();
-
-    custom_msgs::Action turnAction();
-
-    custom_msgs::Action stopAction();
+    custom_msgs::Action forwardAction() const;
+    custom_msgs::Action turnAction() const;
+    custom_msgs::Action stopAction() const;
 };
 
 #endif //PROJECT_NAVIGATOR_H

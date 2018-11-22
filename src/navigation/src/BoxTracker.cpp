@@ -12,7 +12,7 @@ const custom_msgs::Box BoxTracker::bestBoxToTrack(const std::vector<custom_msgs:
     return *it;
 }
 
-bool BoxTracker::updateTrackedBoxIfExists(const std::vector<custom_msgs::Box>& boxes) {
+bool BoxTracker::updateTrackedBoxIfExists(const std::vector<custom_msgs::Box> &boxes) {
     if (!trackedBox_) return false;
     auto it = std::find_if(boxes.begin(), boxes.end(), [this] (const custom_msgs::Box& box) { return trackedBox_->id == box.id; });
     if (it == boxes.end()) return false;

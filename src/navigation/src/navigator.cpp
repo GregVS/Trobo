@@ -12,28 +12,28 @@ custom_msgs::Action Navigator::chooseNavigationAction(const custom_msgs::ImagesA
     else return turnAction();
 }
 
-bool Navigator::shouldDriveForward() {
-    const custom_msgs::Box trackedBox = boxTracker_.trackedBox();
-    return std::abs((trackedBox.left + trackedBox.right) / 2.0f - 0.5f) < 0.2;
+bool Navigator::shouldDriveForward() const {
+    const auto& trackedBox = boxTracker_.trackedBox();
+    return std::abs((trackedBox.left + trackedBox.right) / 2.0f - 0.5f) < 0.15;
 }
 
-custom_msgs::Action Navigator::forwardAction() {
+custom_msgs::Action Navigator::forwardAction() const {
     custom_msgs::Action action;
     action.id = 1;
     action.params = { 1.0, 1.0 };
     return action;
 }
 
-custom_msgs::Action Navigator::turnAction() {
-    const custom_msgs::Box trackedBox = boxTracker_.trackedBox();
+custom_msgs::Action Navigator::turnAction() const {
+    const auto& trackedBox = boxTracker_.trackedBox();
     bool boxOnRightSide = (trackedBox.left + trackedBox.right) / 2.0f > 0.5f;
     custom_msgs::Action action;
     action.id = 1;
-    action.params = { boxOnRightSide ? 0.5f : 0.0f, boxOnRightSide ? 0.0f : 0.5f };
+    action.params = { boxOnRightSide ? 0.9f : 0.0f, boxOnRightSide ? 0.0f : 0.9f };
     return action;
 }
 
-custom_msgs::Action Navigator::stopAction() {
+custom_msgs::Action Navigator::stopAction() const {
     custom_msgs::Action action;
     action.id = 2;
     return action;

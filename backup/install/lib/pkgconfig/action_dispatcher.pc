@@ -1,0 +1,8 @@
+prefix=/home/greg/trobo_cpp/install
+
+Name: action_dispatcher
+Description: Description of action_dispatcher
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/greg/trobo_cpp/install/lib 
+Requires: 

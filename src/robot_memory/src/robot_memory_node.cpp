@@ -29,7 +29,7 @@ public:
 
 	// Gets the data from the given memory bucket
 	template <typename SrvType, typename DataType>
-	bool fetchDataFromBucket(typename SrvType::Request& req, typename SrvType::Response& res, MemoryBucket<DataType>& bucket) {
+	bool fetchDataFromBucket(typename SrvType::Request& req, typename SrvType::Response& res, MemoryBucket<DataType>& bucket) const {
         auto output = bucket.fetchDataFromBuffer(req.skips);
         if (output == nullptr) return false;
         res.result = *output;

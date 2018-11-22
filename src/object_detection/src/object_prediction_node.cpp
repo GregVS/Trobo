@@ -6,7 +6,7 @@
 #include <custom_msgs/ActionSrv.h>
 #include <memory>
 
-void ObjectPredictionNode::executePredictionForOutput(const custom_msgs::ImagesAndBoxes::ConstPtr& currNetOut) {
+void ObjectPredictionNode::executePredictionForOutput(const custom_msgs::ImagesAndBoxes::ConstPtr& currNetOut) const {
 	// call the services and get the latest data
 	auto lastNetOut = prevNetworkOutput();
 	auto lastAction = prevActionOutput();
@@ -18,13 +18,13 @@ void ObjectPredictionNode::executePredictionForOutput(const custom_msgs::ImagesA
 	}
 
 	// run the prediction
-	custom_msgs::ImagesAndBoxes imgBoxes = objPrediction_.performPrediction(*currNetOut, *lastNetOut, *lastAction);
+	const custom_msgs::ImagesAndBoxes imgBoxes = objPrediction_.performPrediction(*currNetOut, *lastNetOut, *lastAction);
 	outputPub_.publish(imgBoxes);
 }
 
 
 // Calls the memory service to get the last network output
-std::optional<custom_msgs::ImagesAndBoxes const> ObjectPredictionNode::prevNetworkOutput() {
+std::optional<custom_msgs::ImagesAndBoxes const> ObjectPredictionNode::prevNetworkOutput() const {
 	custom_msgs::ImagesAndBoxesSrv srv;
 	srv.request.skips = 1;
 	if (!netOutClient_.call(srv)) return std::nullopt;
@@ -32,7 +32,7 @@ std::optional<custom_msgs::ImagesAndBoxes const> ObjectPredictionNode::prevNetwo
 }
 
 // Calls the memory service to get the last action sent to the robot
-std::optional<custom_msgs::Action const> ObjectPredictionNode::prevActionOutput() {
+std::optional<custom_msgs::Action const> ObjectPredictionNode::prevActionOutput() const {
 	custom_msgs::ActionSrv srv;
 	srv.request.skips = 1;
 	if (!actionClient_.call(srv)) return std::nullopt;

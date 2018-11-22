@@ -7,7 +7,7 @@
 class ObjectPrediction {
 
 public:
-	custom_msgs::ImagesAndBoxes performPrediction(const custom_msgs::ImagesAndBoxes& currImgBoxes, const custom_msgs::ImagesAndBoxes& lastImgBoxes, const custom_msgs::Action& lastAction);
+	const custom_msgs::ImagesAndBoxes performPrediction(const custom_msgs::ImagesAndBoxes& currImgBoxes, const custom_msgs::ImagesAndBoxes& lastImgBoxes, const custom_msgs::Action& lastAction) const;
 
 };
 

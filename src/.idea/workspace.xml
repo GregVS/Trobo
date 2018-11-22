@@ -60,12 +60,13 @@
       <config projectName="Project" targetName="_geometry_msgs_generate_messages_check_deps_Pose" />
       <config projectName="Project" targetName="sensor_msgs_genpy" />
       <config projectName="Project" targetName="shape_msgs_generate_messages_nodejs" />
+      <config projectName="Project" targetName="gmock_main" />
       <config projectName="Project" targetName="_diagnostic_msgs_generate_messages_check_deps_SelfTest" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages" />
       <config projectName="Project" targetName="_custom_msgs_generate_messages_check_deps_Box" />
       <config projectName="Project" targetName="_run_tests_image_geometry_nosetests_directed.py" />
-      <config projectName="Project" targetName="navigation_node" />
       <config projectName="Project" targetName="std_srvs_generate_messages_eus" />
+      <config projectName="Project" targetName="navigation_node" />
       <config projectName="Project" targetName="robot_memory_node" />
       <config projectName="Project" targetName="geometry_msgs_gennodejs" />
       <config projectName="Project" targetName="run_tests_cv_bridge_gtest" />
@@ -105,6 +106,7 @@
       <config projectName="Project" targetName="_geometry_msgs_generate_messages_check_deps_Point32" />
       <config projectName="Project" targetName="sensor_msgs_test_image_encodings" />
       <config projectName="Project" targetName="roscpp_generate_messages_eus" />
+      <config projectName="Project" targetName="gmock" />
       <config projectName="Project" targetName="_visualization_msgs_generate_messages_check_deps_ImageMarker" />
       <config projectName="Project" targetName="_run_tests_cv_bridge_nosetests_enumerants.py" />
       <config projectName="Project" targetName="diagnostic_msgs_generate_messages_cpp" />
@@ -136,8 +138,8 @@
       <config projectName="Project" targetName="_nav_msgs_generate_messages_check_deps_GetMapActionFeedback" />
       <config projectName="Project" targetName="_sensor_msgs_generate_messages_check_deps_NavSatFix" />
       <config projectName="Project" targetName="run_tests_cv_bridge_nosetests" />
-      <config projectName="Project" targetName="_run_tests_robot_memory" />
       <config projectName="Project" targetName="robot_memory_test" />
+      <config projectName="Project" targetName="_run_tests_robot_memory" />
       <config projectName="Project" targetName="geometry_msgs_genlisp" />
       <config projectName="Project" targetName="std_srvs_generate_messages_lisp" />
       <config projectName="Project" targetName="_visualization_msgs_generate_messages_check_deps_InteractiveMarkerInit" />
@@ -187,8 +189,8 @@
       <config projectName="Project" targetName="_custom_msgs_generate_messages_check_deps_ImagesAndBoxes" />
       <config projectName="Project" targetName="_geometry_msgs_generate_messages_check_deps_Accel" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_nodejs" />
-      <config projectName="Project" targetName="download_extra_data" />
       <config projectName="Project" targetName="_run_tests_robot_memory_catch_robot_memory_test" />
+      <config projectName="Project" targetName="download_extra_data" />
       <config projectName="Project" targetName="clean_test_results_image_geometry" />
       <config projectName="Project" targetName="image_geometry-utest" />
       <config projectName="Project" targetName="geometry_msgs_generate_messages_py" />
@@ -209,6 +211,7 @@
       <config projectName="Project" targetName="diagnostic_msgs_generate_messages" />
       <config projectName="Project" targetName="run_tests_robot_memory_catch" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages_eus" />
+      <config projectName="Project" targetName="gtest_main" />
       <config projectName="Project" targetName="diagnostic_msgs_gennodejs" />
       <config projectName="Project" targetName="run_tests_image_geometry" />
       <config projectName="Project" targetName="actionlib_msgs_geneus" />
@@ -234,9 +237,10 @@
       <config projectName="Project" targetName="main_processor_node" />
       <config projectName="Project" targetName="_visualization_msgs_generate_messages_check_deps_InteractiveMarkerControl" />
       <config projectName="Project" targetName="_sensor_msgs_generate_messages_check_deps_MagneticField" />
+      <config projectName="Project" targetName="gtest" />
       <config projectName="Project" targetName="_nav_msgs_generate_messages_check_deps_GetMapActionGoal" />
-      <config projectName="Project" targetName="run_tests_image_geometry_gtest" />
       <config projectName="Project" targetName="rosgraph_msgs_generate_messages_lisp" />
+      <config projectName="Project" targetName="run_tests_image_geometry_gtest" />
       <config projectName="Project" targetName="_nav_msgs_generate_messages_check_deps_GetMap" />
       <config projectName="Project" targetName="sensor_msgs_genlisp" />
       <config projectName="Project" targetName="_nav_msgs_generate_messages_check_deps_SetMap" />
@@ -263,16 +267,16 @@
       <config projectName="Project" targetName="_actionlib_msgs_generate_messages_check_deps_GoalStatus" />
       <config projectName="Project" targetName="trajectory_msgs_generate_messages" />
       <config projectName="Project" targetName="_geometry_msgs_generate_messages_check_deps_InertiaStamped" />
-      <config projectName="Project" targetName="diagnostic_msgs_geneus" />
       <config projectName="Project" targetName="run_tests" />
+      <config projectName="Project" targetName="diagnostic_msgs_geneus" />
       <config projectName="Project" targetName="_nav_msgs_generate_messages_check_deps_GetPlan" />
       <config projectName="Project" targetName="actionlib_msgs_generate_messages_nodejs" />
       <config projectName="Project" targetName="sensor_msgs_gencpp" />
       <config projectName="Project" targetName="_sensor_msgs_generate_messages_check_deps_TimeReference" />
       <config projectName="Project" targetName="_run_tests_image_geometry_gtest" />
       <config projectName="Project" targetName="_nav_msgs_generate_messages_check_deps_GetMapResult" />
-      <config projectName="Project" targetName="_geometry_msgs_generate_messages_check_deps_WrenchStamped" />
       <config projectName="Project" targetName="visualization_msgs_geneus" />
+      <config projectName="Project" targetName="_geometry_msgs_generate_messages_check_deps_WrenchStamped" />
       <config projectName="Project" targetName="sensor_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="custom_msgs_generate_messages_lisp" />
       <config projectName="Project" targetName="_visualization_msgs_generate_messages_check_deps_Marker" />
@@ -309,22 +313,1032 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e26da57-83e6-4aa4-abdd-35c5cccf9b4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/action_dispatcher/src/action_dispatcher_node.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/action_dispatcher/src/action_dispatcher_node.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot_memory/tests/CMakeLists.txt" afterDir="false" />
+    <list default="true" id="9e26da57-83e6-4aa4-abdd-35c5cccf9b4e" name="Default Changelist" comment="the navigation node is up and running... still needs testing though">
+      <change afterPath="$PROJECT_DIR$/custom_msgs/src/SingleResultSrvClient.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_msgs/src/SingleResultSrvClient.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.codelite/refactoring.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.codelite/trobo.tags" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.codelite/valgrind.memcheck.supp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/trobo_cpp.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/trobo_cpp.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/trobo_cpp.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/trobo_cpp.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/trobo_cpp.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/trobo_cpp.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/trobo_cpp.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/trobo_cpp.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/.catkin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/.rosinstall" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/_setup_util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/env.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/actionlib_msgs/GoalID.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/actionlib_msgs/GoalStatus.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/actionlib_msgs/GoalStatusArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/custom_msgs/Action.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/custom_msgs/ActionSrv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/custom_msgs/ActionSrvRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/custom_msgs/ActionSrvResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/custom_msgs/Box.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/custom_msgs/ImagesAndBoxes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/custom_msgs/ImagesAndBoxesSrv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/custom_msgs/ImagesAndBoxesSrvRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/custom_msgs/ImagesAndBoxesSrvResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/custom_msgs/RobotImages.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/cv_bridge/cv_bridge.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/cv_bridge/rgb_colors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/diagnostic_msgs/AddDiagnostics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/diagnostic_msgs/AddDiagnosticsRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/diagnostic_msgs/AddDiagnosticsResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/diagnostic_msgs/DiagnosticArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/diagnostic_msgs/DiagnosticStatus.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/diagnostic_msgs/KeyValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/diagnostic_msgs/SelfTest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/diagnostic_msgs/SelfTestRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/diagnostic_msgs/SelfTestResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/Accel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/AccelStamped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/AccelWithCovariance.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/AccelWithCovarianceStamped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/Inertia.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/InertiaStamped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/Point.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/Point32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/PointStamped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/Polygon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/PolygonStamped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/Pose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/Pose2D.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/PoseArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/PoseStamped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/PoseWithCovariance.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/PoseWithCovarianceStamped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/Quaternion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/QuaternionStamped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/Transform.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/TransformStamped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/Twist.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/TwistStamped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/TwistWithCovariance.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/TwistWithCovarianceStamped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/Vector3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/Vector3Stamped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/Wrench.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/geometry_msgs/WrenchStamped.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/image_geometry/pinhole_camera_model.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/image_geometry/stereo_camera_model.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/GetMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/GetMapAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/GetMapActionFeedback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/GetMapActionGoal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/GetMapActionResult.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/GetMapFeedback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/GetMapGoal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/GetMapRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/GetMapResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/GetMapResult.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/GetPlan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/GetPlanRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/GetPlanResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/GridCells.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/MapMetaData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/OccupancyGrid.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/Odometry.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/Path.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/SetMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/SetMapRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/nav_msgs/SetMapResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/BatteryState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/CameraInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/ChannelFloat32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/CompressedImage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/FluidPressure.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/Illuminance.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/Image.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/Imu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/JointState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/Joy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/JoyFeedback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/JoyFeedbackArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/LaserEcho.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/LaserScan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/MagneticField.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/MultiDOFJointState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/MultiEchoLaserScan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/NavSatFix.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/NavSatStatus.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/PointCloud.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/PointCloud2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/PointField.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/Range.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/RegionOfInterest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/RelativeHumidity.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/SetCameraInfo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/SetCameraInfoRequest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/SetCameraInfoResponse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/Temperature.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/TimeReference.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/distortion_models.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/fill_image.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/image_encodings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/impl/point_cloud2_iterator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/point_cloud2_iterator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/point_cloud_conversion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/sensor_msgs/point_field_conversion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/shape_msgs/Mesh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/shape_msgs/MeshTriangle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/shape_msgs/Plane.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/shape_msgs/SolidPrimitive.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/stereo_msgs/DisparityImage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/trajectory_msgs/JointTrajectory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/trajectory_msgs/JointTrajectoryPoint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/trajectory_msgs/MultiDOFJointTrajectory.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/trajectory_msgs/MultiDOFJointTrajectoryPoint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/visualization_msgs/ImageMarker.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/visualization_msgs/InteractiveMarker.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/visualization_msgs/InteractiveMarkerControl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/visualization_msgs/InteractiveMarkerFeedback.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/visualization_msgs/InteractiveMarkerInit.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/visualization_msgs/InteractiveMarkerPose.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/visualization_msgs/InteractiveMarkerUpdate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/visualization_msgs/Marker.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/visualization_msgs/MarkerArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/include/visualization_msgs/MenuEntry.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/actionlib_msgs/genaction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/libcv_bridge.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/libimage_geometry.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/actionlib_msgs.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/custom_msgs.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/cv_bridge.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/diagnostic_msgs.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/geometry_msgs.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/image_geometry.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/images_displayer.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/main_processor.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/nav_msgs.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/navigation.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/object_detection.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/opencv_tests.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/robot_memory.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/scooping_handler.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/sensor_msgs.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/shape_msgs.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/stereo_msgs.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/trajectory_msgs.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/pkgconfig/visualization_msgs.pc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/actionlib_msgs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/actionlib_msgs/msg/_GoalID.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/actionlib_msgs/msg/_GoalStatus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/actionlib_msgs/msg/_GoalStatusArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/actionlib_msgs/msg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/custom_msgs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/custom_msgs/msg/_Action.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/custom_msgs/msg/_Box.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/custom_msgs/msg/_ImagesAndBoxes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/custom_msgs/msg/_RobotImages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/custom_msgs/msg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/custom_msgs/srv/_ActionSrv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/custom_msgs/srv/_ImagesAndBoxesSrv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/custom_msgs/srv/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/cv_bridge-1.12.8.egg-info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/cv_bridge/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/cv_bridge/boost/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/cv_bridge/boost/cv_bridge_boost.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/cv_bridge/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/diagnostic_msgs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/diagnostic_msgs/msg/_DiagnosticArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/diagnostic_msgs/msg/_DiagnosticStatus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/diagnostic_msgs/msg/_KeyValue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/diagnostic_msgs/msg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/diagnostic_msgs/srv/_AddDiagnostics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/diagnostic_msgs/srv/_SelfTest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/diagnostic_msgs/srv/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_Accel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_AccelStamped.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_AccelWithCovariance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_AccelWithCovarianceStamped.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_Inertia.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_InertiaStamped.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_Point.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_Point32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_PointStamped.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_Polygon.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_PolygonStamped.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_Pose.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_Pose2D.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_PoseArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_PoseStamped.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_PoseWithCovariance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_PoseWithCovarianceStamped.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_Quaternion.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_QuaternionStamped.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_Transform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_TransformStamped.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_Twist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_TwistStamped.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_TwistWithCovariance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_TwistWithCovarianceStamped.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_Vector3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_Vector3Stamped.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_Wrench.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/_WrenchStamped.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/geometry_msgs/msg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/image_geometry-1.12.8.egg-info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/image_geometry/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/image_geometry/cameramodels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/msg/_GetMapAction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/msg/_GetMapActionFeedback.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/msg/_GetMapActionGoal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/msg/_GetMapActionResult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/msg/_GetMapFeedback.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/msg/_GetMapGoal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/msg/_GetMapResult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/msg/_GridCells.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/msg/_MapMetaData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/msg/_OccupancyGrid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/msg/_Odometry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/msg/_Path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/msg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/srv/_GetMap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/srv/_GetPlan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/srv/_SetMap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/nav_msgs/srv/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs-1.12.6.egg-info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_BatteryState.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_CameraInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_ChannelFloat32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_CompressedImage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_FluidPressure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_Illuminance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_Image.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_Imu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_JointState.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_Joy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_JoyFeedback.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_JoyFeedbackArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_LaserEcho.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_LaserScan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_MagneticField.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_MultiDOFJointState.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_MultiEchoLaserScan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_NavSatFix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_NavSatStatus.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_PointCloud.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_PointCloud2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_PointField.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_Range.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_RegionOfInterest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_RelativeHumidity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_Temperature.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/_TimeReference.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/msg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/point_cloud2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/srv/_SetCameraInfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/sensor_msgs/srv/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/shape_msgs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/shape_msgs/msg/_Mesh.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/shape_msgs/msg/_MeshTriangle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/shape_msgs/msg/_Plane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/shape_msgs/msg/_SolidPrimitive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/shape_msgs/msg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/stereo_msgs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/stereo_msgs/msg/_DisparityImage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/stereo_msgs/msg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/trajectory_msgs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/trajectory_msgs/msg/_JointTrajectory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/trajectory_msgs/msg/_JointTrajectoryPoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/trajectory_msgs/msg/_MultiDOFJointTrajectory.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/trajectory_msgs/msg/_MultiDOFJointTrajectoryPoint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/trajectory_msgs/msg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/visualization_msgs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/visualization_msgs/msg/_ImageMarker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/visualization_msgs/msg/_InteractiveMarker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/visualization_msgs/msg/_InteractiveMarkerControl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/visualization_msgs/msg/_InteractiveMarkerFeedback.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/visualization_msgs/msg/_InteractiveMarkerInit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/visualization_msgs/msg/_InteractiveMarkerPose.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/visualization_msgs/msg/_InteractiveMarkerUpdate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/visualization_msgs/msg/_Marker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/visualization_msgs/msg/_MarkerArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/visualization_msgs/msg/_MenuEntry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/lib/python2.7/dist-packages/visualization_msgs/msg/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/setup.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/setup.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/setup.zsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/actionlib_msgs/cmake/actionbuild.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/actionlib_msgs/cmake/actionlib_msgs-msg-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/actionlib_msgs/cmake/actionlib_msgs-msg-paths.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/actionlib_msgs/cmake/actionlib_msgsConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/actionlib_msgs/msg/GoalID.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/actionlib_msgs/msg/GoalStatus.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/actionlib_msgs/msg/GoalStatusArray.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/actionlib_msgs/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/actionlib_msgs/msg/GoalID.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/actionlib_msgs/msg/GoalStatus.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/actionlib_msgs/msg/GoalStatusArray.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/actionlib_msgs/msg/_package.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/actionlib_msgs/msg/_package_GoalID.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/actionlib_msgs/msg/_package_GoalStatus.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/actionlib_msgs/msg/_package_GoalStatusArray.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/actionlib_msgs/msg/actionlib_msgs-msg.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/msg/Action.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/msg/Box.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/msg/ImagesAndBoxes.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/msg/RobotImages.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/msg/_package.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/msg/_package_Action.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/msg/_package_Box.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/msg/_package_ImagesAndBoxes.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/msg/_package_RobotImages.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/msg/custom_msgs-msg.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/srv/ActionSrv.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/srv/ImagesAndBoxesSrv.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/srv/_package.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/srv/_package_ActionSrv.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/srv/_package_ImagesAndBoxesSrv.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/custom_msgs/srv/custom_msgs-srv.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticArray.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/diagnostic_msgs/msg/DiagnosticStatus.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/diagnostic_msgs/msg/KeyValue.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/diagnostic_msgs/msg/_package.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/diagnostic_msgs/msg/_package_DiagnosticArray.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/diagnostic_msgs/msg/_package_DiagnosticStatus.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/diagnostic_msgs/msg/_package_KeyValue.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/diagnostic_msgs/msg/diagnostic_msgs-msg.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/diagnostic_msgs/srv/AddDiagnostics.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/diagnostic_msgs/srv/SelfTest.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/diagnostic_msgs/srv/_package.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/diagnostic_msgs/srv/_package_AddDiagnostics.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/diagnostic_msgs/srv/_package_SelfTest.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/diagnostic_msgs/srv/diagnostic_msgs-srv.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/Accel.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/AccelStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/AccelWithCovariance.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/AccelWithCovarianceStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/Inertia.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/InertiaStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/Point.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/Point32.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/PointStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/Polygon.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/PolygonStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/Pose.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/Pose2D.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/PoseArray.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/PoseStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovariance.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/PoseWithCovarianceStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/Quaternion.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/QuaternionStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/Transform.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/TransformStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/Twist.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/TwistStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/TwistWithCovariance.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/TwistWithCovarianceStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/Vector3.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/Vector3Stamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/Wrench.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/WrenchStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_Accel.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_AccelStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_AccelWithCovariance.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_AccelWithCovarianceStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_Inertia.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_InertiaStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_Point.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_Point32.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_PointStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_Polygon.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_PolygonStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_Pose.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_Pose2D.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_PoseArray.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_PoseStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_PoseWithCovariance.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_PoseWithCovarianceStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_Quaternion.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_QuaternionStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_Transform.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_TransformStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_Twist.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_TwistStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_TwistWithCovariance.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_TwistWithCovarianceStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_Vector3.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_Vector3Stamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_Wrench.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/_package_WrenchStamped.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/geometry_msgs/msg/geometry_msgs-msg.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/GetMapAction.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/GetMapActionFeedback.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/GetMapActionGoal.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/GetMapActionResult.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/GetMapFeedback.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/GetMapGoal.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/GetMapResult.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/GridCells.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/MapMetaData.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/OccupancyGrid.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/Odometry.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/Path.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/_package.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/_package_GetMapAction.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/_package_GetMapActionFeedback.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/_package_GetMapActionGoal.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/_package_GetMapActionResult.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/_package_GetMapFeedback.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/_package_GetMapGoal.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/_package_GetMapResult.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/_package_GridCells.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/_package_MapMetaData.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/_package_OccupancyGrid.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/_package_Odometry.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/_package_Path.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/msg/nav_msgs-msg.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/srv/GetMap.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/srv/GetPlan.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/srv/SetMap.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/srv/_package.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/srv/_package_GetMap.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/srv/_package_GetPlan.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/srv/_package_SetMap.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/nav_msgs/srv/nav_msgs-srv.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/BatteryState.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/CameraInfo.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/ChannelFloat32.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/CompressedImage.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/FluidPressure.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/Illuminance.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/Image.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/Imu.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/JointState.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/Joy.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/JoyFeedback.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/JoyFeedbackArray.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/LaserEcho.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/LaserScan.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/MagneticField.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/MultiDOFJointState.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/MultiEchoLaserScan.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/NavSatFix.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/NavSatStatus.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/PointCloud.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/PointCloud2.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/PointField.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/Range.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/RegionOfInterest.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/RelativeHumidity.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/Temperature.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/TimeReference.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_BatteryState.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_CameraInfo.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_ChannelFloat32.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_CompressedImage.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_FluidPressure.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_Illuminance.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_Image.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_Imu.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_JointState.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_Joy.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_JoyFeedback.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_JoyFeedbackArray.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_LaserEcho.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_LaserScan.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_MagneticField.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_MultiDOFJointState.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_MultiEchoLaserScan.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_NavSatFix.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_NavSatStatus.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_PointCloud.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_PointCloud2.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_PointField.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_Range.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_RegionOfInterest.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_RelativeHumidity.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_Temperature.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/_package_TimeReference.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/msg/sensor_msgs-msg.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/srv/SetCameraInfo.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/srv/_package.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/srv/_package_SetCameraInfo.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/sensor_msgs/srv/sensor_msgs-srv.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/shape_msgs/msg/Mesh.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/shape_msgs/msg/MeshTriangle.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/shape_msgs/msg/Plane.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/shape_msgs/msg/SolidPrimitive.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/shape_msgs/msg/_package.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/shape_msgs/msg/_package_Mesh.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/shape_msgs/msg/_package_MeshTriangle.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/shape_msgs/msg/_package_Plane.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/shape_msgs/msg/_package_SolidPrimitive.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/shape_msgs/msg/shape_msgs-msg.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/stereo_msgs/msg/DisparityImage.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/stereo_msgs/msg/_package.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/stereo_msgs/msg/_package_DisparityImage.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/stereo_msgs/msg/stereo_msgs-msg.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/trajectory_msgs/msg/JointTrajectory.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/trajectory_msgs/msg/JointTrajectoryPoint.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/trajectory_msgs/msg/MultiDOFJointTrajectory.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/trajectory_msgs/msg/_package.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/trajectory_msgs/msg/_package_JointTrajectory.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/trajectory_msgs/msg/_package_JointTrajectoryPoint.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/trajectory_msgs/msg/_package_MultiDOFJointTrajectory.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/trajectory_msgs/msg/_package_MultiDOFJointTrajectoryPoint.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/trajectory_msgs/msg/trajectory_msgs-msg.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/ImageMarker.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/InteractiveMarker.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/InteractiveMarkerControl.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/InteractiveMarkerFeedback.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/InteractiveMarkerInit.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/InteractiveMarkerPose.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/InteractiveMarkerUpdate.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/Marker.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/MarkerArray.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/MenuEntry.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/_package.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/_package_ImageMarker.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/_package_InteractiveMarker.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/_package_InteractiveMarkerControl.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/_package_InteractiveMarkerFeedback.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/_package_InteractiveMarkerInit.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/_package_InteractiveMarkerPose.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/_package_InteractiveMarkerUpdate.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/_package_Marker.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/_package_MarkerArray.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/_package_MenuEntry.lisp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common-lisp/ros/visualization_msgs/msg/visualization_msgs-msg.asd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/common_msgs/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/custom_msgs/cmake/custom_msgs-msg-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/custom_msgs/cmake/custom_msgs-msg-paths.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/custom_msgs/cmake/custom_msgsConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/custom_msgs/cmake/custom_msgsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/custom_msgs/msg/Action.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/custom_msgs/msg/Box.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/custom_msgs/msg/ImagesAndBoxes.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/custom_msgs/msg/RobotImages.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/custom_msgs/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/custom_msgs/srv/ActionSrv.srv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/custom_msgs/srv/ImagesAndBoxesSrv.srv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/cv_bridge/cmake/cv_bridge-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/cv_bridge/cmake/cv_bridgeConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/cv_bridge/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/diagnostic_msgs/cmake/diagnostic_msgs-msg-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/diagnostic_msgs/cmake/diagnostic_msgs-msg-paths.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/diagnostic_msgs/cmake/diagnostic_msgsConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/diagnostic_msgs/cmake/diagnostic_msgsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/diagnostic_msgs/msg/DiagnosticArray.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/diagnostic_msgs/msg/DiagnosticStatus.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/diagnostic_msgs/msg/KeyValue.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/diagnostic_msgs/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/diagnostic_msgs/srv/AddDiagnostics.srv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/diagnostic_msgs/srv/SelfTest.srv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/actionlib_msgs/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/actionlib_msgs/msg/GoalID.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/actionlib_msgs/msg/GoalStatus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/actionlib_msgs/msg/GoalStatusArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/actionlib_msgs/msg/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/custom_msgs/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/custom_msgs/msg/Action.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/custom_msgs/msg/Box.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/custom_msgs/msg/ImagesAndBoxes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/custom_msgs/msg/RobotImages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/custom_msgs/msg/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/custom_msgs/srv/ActionSrv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/custom_msgs/srv/ImagesAndBoxesSrv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/custom_msgs/srv/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/diagnostic_msgs/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/diagnostic_msgs/msg/DiagnosticArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/diagnostic_msgs/msg/DiagnosticStatus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/diagnostic_msgs/msg/KeyValue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/diagnostic_msgs/msg/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/diagnostic_msgs/srv/AddDiagnostics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/diagnostic_msgs/srv/SelfTest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/diagnostic_msgs/srv/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/Accel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/AccelStamped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/AccelWithCovariance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/AccelWithCovarianceStamped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/Inertia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/InertiaStamped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/Point.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/Point32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/PointStamped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/Polygon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/PolygonStamped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/Pose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/Pose2D.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/PoseArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/PoseStamped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/PoseWithCovariance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/PoseWithCovarianceStamped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/Quaternion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/QuaternionStamped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/Transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/TransformStamped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/Twist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/TwistStamped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/TwistWithCovariance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/TwistWithCovarianceStamped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/Vector3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/Vector3Stamped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/Wrench.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/WrenchStamped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/geometry_msgs/msg/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/msg/GetMapAction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/msg/GetMapActionFeedback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/msg/GetMapActionGoal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/msg/GetMapActionResult.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/msg/GetMapFeedback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/msg/GetMapGoal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/msg/GetMapResult.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/msg/GridCells.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/msg/MapMetaData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/msg/OccupancyGrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/msg/Odometry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/msg/Path.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/msg/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/srv/GetMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/srv/GetPlan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/srv/SetMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/nav_msgs/srv/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/BatteryState.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/CameraInfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/ChannelFloat32.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/CompressedImage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/FluidPressure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/Illuminance.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/Image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/Imu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/JointState.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/Joy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/JoyFeedback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/JoyFeedbackArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/LaserEcho.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/LaserScan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/MagneticField.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/MultiDOFJointState.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/MultiEchoLaserScan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/NavSatFix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/NavSatStatus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/PointCloud.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/PointCloud2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/PointField.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/Range.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/RegionOfInterest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/RelativeHumidity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/Temperature.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/TimeReference.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/msg/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/srv/SetCameraInfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/sensor_msgs/srv/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/shape_msgs/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/shape_msgs/msg/Mesh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/shape_msgs/msg/MeshTriangle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/shape_msgs/msg/Plane.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/shape_msgs/msg/SolidPrimitive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/shape_msgs/msg/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/stereo_msgs/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/stereo_msgs/msg/DisparityImage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/stereo_msgs/msg/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/trajectory_msgs/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/trajectory_msgs/msg/JointTrajectory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/trajectory_msgs/msg/JointTrajectoryPoint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/trajectory_msgs/msg/MultiDOFJointTrajectory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/trajectory_msgs/msg/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/visualization_msgs/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/visualization_msgs/msg/ImageMarker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/visualization_msgs/msg/InteractiveMarker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/visualization_msgs/msg/InteractiveMarkerControl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/visualization_msgs/msg/InteractiveMarkerFeedback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/visualization_msgs/msg/InteractiveMarkerInit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/visualization_msgs/msg/InteractiveMarkerPose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/visualization_msgs/msg/InteractiveMarkerUpdate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/visualization_msgs/msg/Marker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/visualization_msgs/msg/MarkerArray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/visualization_msgs/msg/MenuEntry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/gennodejs/ros/visualization_msgs/msg/_index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/cmake/geometry_msgs-msg-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/cmake/geometry_msgs-msg-paths.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/cmake/geometry_msgsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/Accel.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/AccelStamped.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/AccelWithCovariance.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/AccelWithCovarianceStamped.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/Inertia.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/InertiaStamped.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/Point.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/Point32.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/PointStamped.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/Polygon.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/PolygonStamped.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/Pose.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/Pose2D.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/PoseArray.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/PoseStamped.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/PoseWithCovariance.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/PoseWithCovarianceStamped.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/Quaternion.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/QuaternionStamped.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/Transform.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/TransformStamped.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/Twist.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/TwistStamped.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/TwistWithCovariance.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/TwistWithCovarianceStamped.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/Vector3.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/Vector3Stamped.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/Wrench.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/msg/WrenchStamped.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/geometry_msgs/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/image_geometry/cmake/image_geometryConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/image_geometry/cmake/image_geometryConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/image_geometry/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/images_displayer/cmake/images_displayerConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/images_displayer/cmake/images_displayerConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/images_displayer/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/main_processor/cmake/main_processorConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/main_processor/cmake/main_processorConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/main_processor/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/action/GetMap.action" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/cmake/nav_msgs-msg-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/cmake/nav_msgs-msg-paths.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/cmake/nav_msgsConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/cmake/nav_msgsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/msg/GetMapAction.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/msg/GetMapActionFeedback.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/msg/GetMapActionGoal.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/msg/GetMapActionResult.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/msg/GetMapFeedback.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/msg/GetMapGoal.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/msg/GetMapResult.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/msg/GridCells.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/msg/MapMetaData.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/msg/OccupancyGrid.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/msg/Odometry.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/msg/Path.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/srv/GetMap.srv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/srv/GetPlan.srv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/nav_msgs/srv/SetMap.srv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/navigation/cmake/navigationConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/navigation/cmake/navigationConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/navigation/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/object_detection/cmake/object_detectionConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/object_detection/cmake/object_detectionConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/object_detection/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/opencv_tests/cmake/opencv_testsConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/opencv_tests/cmake/opencv_testsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/opencv_tests/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/robot_memory/cmake/robot_memoryConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/robot_memory/cmake/robot_memoryConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/robot_memory/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/actionlib_msgs/manifest.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/actionlib_msgs/msg/GoalID.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/actionlib_msgs/msg/GoalStatus.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/actionlib_msgs/msg/GoalStatusArray.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/custom_msgs/manifest.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/custom_msgs/msg/Action.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/custom_msgs/msg/Box.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/custom_msgs/msg/ImagesAndBoxes.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/custom_msgs/msg/RobotImages.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/custom_msgs/srv/ActionSrv.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/custom_msgs/srv/ImagesAndBoxesSrv.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/diagnostic_msgs/manifest.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/diagnostic_msgs/msg/DiagnosticArray.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/diagnostic_msgs/msg/DiagnosticStatus.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/diagnostic_msgs/msg/KeyValue.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/diagnostic_msgs/srv/AddDiagnostics.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/diagnostic_msgs/srv/SelfTest.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/manifest.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/Accel.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/AccelStamped.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/AccelWithCovariance.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/AccelWithCovarianceStamped.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/Inertia.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/InertiaStamped.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/Point.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/Point32.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/PointStamped.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/Polygon.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/PolygonStamped.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/Pose.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/Pose2D.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/PoseArray.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/PoseStamped.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/PoseWithCovariance.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/PoseWithCovarianceStamped.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/Quaternion.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/QuaternionStamped.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/Transform.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/TransformStamped.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/Twist.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/TwistStamped.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/TwistWithCovariance.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/TwistWithCovarianceStamped.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/Vector3.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/Vector3Stamped.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/Wrench.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/geometry_msgs/msg/WrenchStamped.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/manifest.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/msg/GetMapAction.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/msg/GetMapActionFeedback.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/msg/GetMapActionGoal.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/msg/GetMapActionResult.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/msg/GetMapFeedback.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/msg/GetMapGoal.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/msg/GetMapResult.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/msg/GridCells.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/msg/MapMetaData.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/msg/OccupancyGrid.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/msg/Odometry.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/msg/Path.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/srv/GetMap.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/srv/GetPlan.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/nav_msgs/srv/SetMap.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/manifest.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/BatteryState.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/CameraInfo.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/ChannelFloat32.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/CompressedImage.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/FluidPressure.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/Illuminance.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/Image.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/Imu.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/JointState.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/Joy.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/JoyFeedback.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/JoyFeedbackArray.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/LaserEcho.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/LaserScan.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/MagneticField.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/MultiDOFJointState.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/MultiEchoLaserScan.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/NavSatFix.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/NavSatStatus.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/PointCloud.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/PointCloud2.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/PointField.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/Range.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/RegionOfInterest.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/RelativeHumidity.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/Temperature.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/msg/TimeReference.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/sensor_msgs/srv/SetCameraInfo.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/shape_msgs/manifest.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/shape_msgs/msg/Mesh.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/shape_msgs/msg/MeshTriangle.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/shape_msgs/msg/Plane.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/shape_msgs/msg/SolidPrimitive.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/stereo_msgs/manifest.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/stereo_msgs/msg/DisparityImage.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/trajectory_msgs/manifest.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/trajectory_msgs/msg/JointTrajectory.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/trajectory_msgs/msg/JointTrajectoryPoint.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/trajectory_msgs/msg/MultiDOFJointTrajectory.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/visualization_msgs/manifest.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/visualization_msgs/msg/ImageMarker.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/visualization_msgs/msg/InteractiveMarker.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/visualization_msgs/msg/InteractiveMarkerControl.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/visualization_msgs/msg/InteractiveMarkerFeedback.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/visualization_msgs/msg/InteractiveMarkerInit.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/visualization_msgs/msg/InteractiveMarkerPose.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/visualization_msgs/msg/InteractiveMarkerUpdate.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/visualization_msgs/msg/Marker.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/visualization_msgs/msg/MarkerArray.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/roseus/ros/visualization_msgs/msg/MenuEntry.l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/scooping_handler/cmake/scooping_handlerConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/scooping_handler/cmake/scooping_handlerConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/scooping_handler/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/cmake/sensor_msgs-msg-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/cmake/sensor_msgs-msg-paths.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/cmake/sensor_msgsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/migration_rules/sensor_msgs.bmr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/BatteryState.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/CameraInfo.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/ChannelFloat32.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/CompressedImage.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/FluidPressure.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/Illuminance.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/Image.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/Imu.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/JointState.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/Joy.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/JoyFeedback.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/JoyFeedbackArray.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/LaserEcho.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/LaserScan.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/MagneticField.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/MultiDOFJointState.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/MultiEchoLaserScan.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/NavSatFix.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/NavSatStatus.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/PointCloud.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/PointCloud2.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/PointField.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/Range.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/RegionOfInterest.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/RelativeHumidity.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/Temperature.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/msg/TimeReference.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/sensor_msgs/srv/SetCameraInfo.srv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/shape_msgs/cmake/shape_msgs-msg-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/shape_msgs/cmake/shape_msgs-msg-paths.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/shape_msgs/cmake/shape_msgsConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/shape_msgs/cmake/shape_msgsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/shape_msgs/msg/Mesh.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/shape_msgs/msg/MeshTriangle.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/shape_msgs/msg/Plane.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/shape_msgs/msg/SolidPrimitive.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/shape_msgs/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/stereo_msgs/cmake/stereo_msgs-msg-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/stereo_msgs/cmake/stereo_msgs-msg-paths.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/stereo_msgs/cmake/stereo_msgsConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/stereo_msgs/cmake/stereo_msgsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/stereo_msgs/msg/DisparityImage.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/stereo_msgs/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/trajectory_msgs/cmake/trajectory_msgs-msg-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/trajectory_msgs/cmake/trajectory_msgs-msg-paths.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/trajectory_msgs/msg/JointTrajectory.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/trajectory_msgs/msg/JointTrajectoryPoint.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/trajectory_msgs/msg/MultiDOFJointTrajectory.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/trajectory_msgs/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/trajectory_msgs/rules/JointTrajectoryPoint_Groovy2Hydro_08.10.2013.bmr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/vision_opencv/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/cmake/visualization_msgs-msg-extras.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/cmake/visualization_msgs-msg-paths.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/cmake/visualization_msgsConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/msg/ImageMarker.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/msg/InteractiveMarker.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/msg/InteractiveMarkerControl.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/msg/InteractiveMarkerFeedback.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/msg/InteractiveMarkerInit.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/msg/InteractiveMarkerPose.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/msg/InteractiveMarkerUpdate.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/msg/Marker.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/msg/MarkerArray.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/msg/MenuEntry.msg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../install/share/visualization_msgs/package.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../robot.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../robot.launch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action_dispatcher/src/action_dispatcher_node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/action_dispatcher/src/action_dispatcher_node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_msgs" beforeDir="false" afterPath="$PROJECT_DIR$/custom_msgs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_msgs/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/custom_msgs/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_processor/src/processor_node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main_processor/src/processor_node.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navigation/src/BoxTracker.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/src/BoxTracker.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navigation/src/BoxTracker.h" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/src/BoxTracker.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigation/src/navigation_node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/src/navigation_node.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object_detection/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/src/navigator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/src/navigator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navigation/src/navigator.h" beforeDir="false" afterPath="$PROJECT_DIR$/navigation/src/navigator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/src/object_prediction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/src/object_prediction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_detection/src/object_prediction.h" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/src/object_prediction.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/object_detection/src/object_prediction_node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/src/object_prediction_node.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/object_detection/src/object_prediction_node.h" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection/src/object_prediction_node.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/robot_memory/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robot_memory/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot_memory/src/memory_bucket.h" beforeDir="false" afterPath="$PROJECT_DIR$/robot_memory/src/memory_bucket.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robot_memory/tests/test_robot_memory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/robot_memory/tests/test_robot_memory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_memory/src/robot_memory_node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/robot_memory/src/robot_memory_node.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scooping_handler/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scooping_handler/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scooping_handler/src/scooping_node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/scooping_handler/src/scooping_node.cpp" afterDir="false" />
     </list>
@@ -332,6 +1346,36 @@
     <ignored path="$PROJECT_DIR$/~/trobo_cpp/build/" />
     <ignored path="$PROJECT_DIR$/../build/" />
     <ignored path="$PROJECT_DIR$/robot_memory/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/common_msgs/sensor_msgs/test/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/images_displayer/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/common_msgs/sensor_msgs/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/action_dispatcher/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/common_msgs/diagnostic_msgs/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/vision_opencv/cv_bridge/test/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/robot_memory/tests/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/common_msgs/trajectory_msgs/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/vision_opencv/cv_bridge/src/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/scooping_handler/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/common_msgs/nav_msgs/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/common_msgs/visualization_msgs/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/common_msgs/actionlib_msgs/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/common_msgs/common_msgs/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/object_detection/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/common_msgs/geometry_msgs/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/custom_msgs/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/common_msgs/stereo_msgs/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/vision_opencv/image_geometry/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/vision_opencv/vision_opencv/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/main_processor/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/catch_ros/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/vision_opencv/opencv_tests/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/vision_opencv/cv_bridge/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/navigation/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/common_msgs/shape_msgs/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/vision_opencv/image_geometry/test/CMakeFiles/" />
+    <ignored path="$PROJECT_DIR$/vision_opencv/cv_bridge/python/CMakeFiles/" />
+    <ignored path="/usr/src/googletest/googletest/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,50 +1387,54 @@
     <session id="-1631114188">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="71" />
-          <entry key="h" value="40" />
+          <entry key="LICENSE" value="1" />
+          <entry key="cpp" value="95" />
+          <entry key="em" value="1" />
+          <entry key="h" value="63" />
           <entry key="hpp" value="1" />
           <entry key="launch" value="3" />
           <entry key="msg" value="3" />
           <entry key="py" value="1" />
-          <entry key="txt" value="30" />
-          <entry key="xml" value="1" />
+          <entry key="txt" value="38" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="30" />
-          <entry key="ObjectiveC" value="112" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="CMakeLists.txt" value="38" />
+          <entry key="ObjectiveC" value="159" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="Python" value="1" />
-          <entry key="XML" value="4" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="9906" />
-          <entry key="h" value="2622" />
+          <entry key="cpp" value="11208" />
+          <entry key="h" value="3313" />
           <entry key="launch" value="124" />
+          <entry key="mm" value="12" />
           <entry key="msg" value="146" />
-          <entry key="txt" value="1552" />
+          <entry key="txt" value="3233" />
           <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="1191" />
-          <entry key="ObjectiveC" value="12528" />
-          <entry key="PLAIN_TEXT" value="507" />
+          <entry key="CMakeLists.txt" value="2639" />
+          <entry key="ObjectiveC" value="14533" />
+          <entry key="PLAIN_TEXT" value="740" />
           <entry key="XML" value="138" />
         </counts>
       </usages-collector>
@@ -401,79 +1449,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/navigation/src/BoxTracker.cpp">
+        <entry file="file://$PROJECT_DIR$/scooping_handler/src/scooping_node.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/action_dispatcher/src/action_dispatcher_node.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-              <folding>
-                <element signature="e#39#74#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/action_dispatcher/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="139" column="85" lean-forward="true" selection-start-line="139" selection-start-column="85" selection-end-line="139" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/navigation/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="139" column="46" selection-start-line="139" selection-start-column="46" selection-end-line="139" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robot_memory/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="126" selection-start-line="126" selection-end-line="126" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/action_dispatcher/src/action_dispatcher_node.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-              <folding>
-                <element signature="e#122#149#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/navigation/src/BoxTracker.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/navigation/src/navigation_node.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="85">
+              <caret line="23" column="88" lean-forward="true" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -482,10 +1461,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/action_dispatcher/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4">
+              <caret line="124" column="3" lean-forward="true" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/navigation/src/navigator.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#39#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/action_dispatcher/src/action_dispatcher_node.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="591">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#39#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/object_detection/src/object_prediction.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/object_detection/src/object_prediction_node.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+            <state relative-caret-position="1088">
+              <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
                 <element signature="e#77#119#0" expanded="true" />
@@ -498,10 +1522,37 @@
         <entry file="file://$PROJECT_DIR$/object_detection/src/object_prediction_node.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding>
                 <element signature="e#61#81#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main_processor/src/processor_node.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scooping_handler/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1496">
+              <caret line="130" selection-start-line="130" selection-end-line="130" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/custom_msgs/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="971">
+              <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -514,6 +1565,12 @@
         <option value="CMakeLists.txt" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>wraper</find>
+      <find>greg</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -592,8 +1649,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/object_detection/src/object_prediction.h" />
-        <option value="$PROJECT_DIR$/object_detection/src/object_prediction.cpp" />
         <option value="$PROJECT_DIR$/custom_msgs/msg/Box.msg" />
         <option value="$PROJECT_DIR$/robot_memory/test/test_robot_memory.cpp" />
         <option value="$PROJECT_DIR$/robot_memory/tests/tests.launch" />
@@ -602,29 +1657,35 @@
         <option value="$PROJECT_DIR$/robot_memory/src/robot_memory.h" />
         <option value="$PROJECT_DIR$/robot_memory/src/robot_memory_node_backup.cpp" />
         <option value="$PROJECT_DIR$/navigation/src/box_tracker.h" />
-        <option value="$PROJECT_DIR$/navigation/src/navigator.h" />
-        <option value="$PROJECT_DIR$/navigation/src/navigator.cpp" />
-        <option value="$PROJECT_DIR$/main_processor/src/processor_node.cpp" />
         <option value="$PROJECT_DIR$/common_msgs/sensor_msgs/test/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/robot_memory/tests/test_robot_memory.cpp" />
         <option value="$PROJECT_DIR$/robot_memory/tests/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/robot_memory/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/action_dispatcher/src/ActionDispatcherNode.h" />
         <option value="$PROJECT_DIR$/action_dispatcher/src/ActionDispatcherNode.cpp" />
-        <option value="$PROJECT_DIR$/action_dispatcher/src/action_dispatcher_node.h" />
-        <option value="$PROJECT_DIR$/action_dispatcher/src/action_dispatcher_node.cpp" />
         <option value="$PROJECT_DIR$/object_detection/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/object_detection/src/object_prediction_node.h" />
-        <option value="$PROJECT_DIR$/object_detection/src/object_prediction_node.cpp" />
-        <option value="$PROJECT_DIR$/scooping_handler/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/scooping_handler/src/scooping_node.cpp" />
         <option value="$PROJECT_DIR$/navigation/src/navigation_node.cpp" />
-        <option value="$PROJECT_DIR$/robot_memory/src/memory_bucket.h" />
-        <option value="$PROJECT_DIR$/robot_memory/src/robot_memory_node.cpp" />
-        <option value="$PROJECT_DIR$/navigation/src/BoxTracker.h" />
-        <option value="$PROJECT_DIR$/navigation/src/BoxTracker.cpp" />
         <option value="$PROJECT_DIR$/navigation/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/action_dispatcher/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/navigation/src/BoxTracker.cpp" />
+        <option value="$PROJECT_DIR$/navigation/src/BoxTracker.h" />
+        <option value="$PROJECT_DIR$/navigation/src/navigator.h" />
+        <option value="$PROJECT_DIR$/object_detection/src/object_prediction_node.h" />
+        <option value="$PROJECT_DIR$/object_detection/src/object_prediction.cpp" />
+        <option value="$PROJECT_DIR$/object_detection/src/object_prediction.h" />
+        <option value="$PROJECT_DIR$/custom_msgs/src/ServiceClientWrapper.h" />
+        <option value="$PROJECT_DIR$/custom_msgs/src/SingleResultSrvClient.h" />
+        <option value="$PROJECT_DIR$/action_dispatcher/src/action_dispatcher_node.h" />
+        <option value="$PROJECT_DIR$/robot_memory/src/memory_bucket.h" />
+        <option value="$PROJECT_DIR$/robot_memory/src/robot_memory_node.cpp" />
+        <option value="$PROJECT_DIR$/custom_msgs/src/SingleResultSrvClient.cpp" />
+        <option value="$PROJECT_DIR$/robot_memory/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/scooping_handler/src/scooping_node.cpp" />
+        <option value="$PROJECT_DIR$/scooping_handler/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/custom_msgs/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/action_dispatcher/src/action_dispatcher_node.cpp" />
+        <option value="$PROJECT_DIR$/main_processor/src/processor_node.cpp" />
+        <option value="$PROJECT_DIR$/object_detection/src/object_prediction_node.cpp" />
+        <option value="$PROJECT_DIR$/navigation/src/navigator.cpp" />
       </list>
     </option>
   </component>
@@ -636,7 +1697,7 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="753" />
+    <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="687" />
     <option name="height" value="875" />
@@ -653,48 +1714,67 @@
           <expand>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="action_dispatcher" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="action_dispatcher" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="custom_msgs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="main_processor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main_processor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="robot_memory" type="462c0819:PsiDirectoryNode" />
+              <item name="object_detection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="robot_memory" type="462c0819:PsiDirectoryNode" />
+              <item name="object_detection" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scooping_handler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="src" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="47feb1d3:ProjectViewModuleNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scooping_handler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -710,7 +1790,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../build" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1651,6 +2731,26 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="image_geometry-utest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="image_geometry-utest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="image_geometry-utest">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -2538,6 +3638,10 @@
       <item itemvalue="Application.run_tests_image_geometry_gtest_image_geometry-utest" />
       <item itemvalue="Application.run_tests_image_geometry_nosetests" />
       <item itemvalue="Application.run_tests_image_geometry_nosetests_directed.py" />
+      <item itemvalue="Application.gmock" />
+      <item itemvalue="Application.gmock_main" />
+      <item itemvalue="Application.gtest" />
+      <item itemvalue="Application.gtest_main" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -2554,7 +3658,8 @@
       <workItem from="1542587287695" duration="4207000" />
       <workItem from="1542593484111" duration="20228000" />
       <workItem from="1542665781789" duration="5574000" />
-      <workItem from="1542739028294" duration="11132000" />
+      <workItem from="1542739028294" duration="12079000" />
+      <workItem from="1542828025481" duration="24882000" />
     </task>
     <task id="LOCAL-00001" summary="the memory code is working and it contains backup files that can be reverted to for the non-generic template code. At this point all the nodes included in the launch file are working. The navigation node is still a work in progress.">
       <created>1542665940380</created>
@@ -2577,17 +3682,23 @@
       <option name="project" value="LOCAL" />
       <updated>1542678814129</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="almost everything is back to working like the python version - just need to implement the code that makes sure the scoop action is not sent while it is scooping... or maybe there is a better way to solve that problem">
+      <created>1542789998529</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542789998529</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44806000" />
+    <option name="totallyTimeSpent" value="70635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1373" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26073852" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2645064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2599,17 +3710,17 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32876712" />
-      <window_info anchor="bottom" x="168" y="95" width="1051" height="584" id="Terminal" order="9" type="FLOATING" weight="0.32876712" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" x="349" y="60" width="1051" height="616" id="Terminal" order="9" type="FLOATING" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50037676" side_tool="true" weight="0.27651006" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" visible="true" weight="0.32080537" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.4996232" weight="0.27651006" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2569706" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2645064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -2621,10 +3732,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" x="1586" y="32" width="1051" height="800" id="Terminal" order="9" type="FLOATING" visible="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" x="184" y="128" width="1051" height="616" id="Terminal" order="9" type="FLOATING" weight="0.32876712" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50037676" side_tool="true" weight="0.27651006" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" visible="true" weight="0.3261745" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.4996232" visible="true" weight="0.27651006" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2641,40 +3752,10 @@
     <MESSAGE value="the memory code is working and it contains backup files that can be reverted to for the non-generic template code. At this point all the nodes included in the launch file are working. The navigation node is still a work in progress." />
     <MESSAGE value="the memory code is working with generics. At this point all the nodes included in the launch file are working. The navigation node is still a work in progress." />
     <MESSAGE value="the navigation node is up and running... still needs testing though" />
-    <option name="LAST_COMMIT_MESSAGE" value="the navigation node is up and running... still needs testing though" />
+    <MESSAGE value="almost everything is back to working like the python version - just need to implement the code that makes sure the scoop action is not sent while it is scooping... or maybe there is a better way to solve that problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost everything is back to working like the python version - just need to implement the code that makes sure the scoop action is not sent while it is scooping... or maybe there is a better way to solve that problem" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/object_detection/src/tensorflow_obj_node.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../devel/include/custom_msgs/ImagesAndBoxes.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2227">
-          <caret line="66" column="62" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
-          <folding>
-            <element signature="e#511#537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom_msgs/msg/ImagesAndBoxes.msg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom_msgs/msg/Box.msg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom_msgs/msg/Action.msg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catch.hpp" />
     <entry file="file://$PROJECT_DIR$/robot_memory/package.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -2706,22 +3787,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///opt/ros/melodic/include/ros/service_client.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="126" column="7" selection-start-line="126" selection-start-column="7" selection-end-line="126" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main_processor/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_processor/src/processor_node.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common_msgs/sensor_msgs/test/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -2737,41 +3804,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robot_memory/tests/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="59" lean-forward="true" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robot_memory/tests/test_robot_memory.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scooping_handler/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/object_detection/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/src/navigator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding>
-            <element signature="e#96#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2782,20 +3818,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scooping_handler/src/scooping_node.cpp">
+    <entry file="file://$PROJECT_DIR$/navigation/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="272">
+          <caret line="139" column="46" selection-start-line="139" selection-start-column="46" selection-end-line="139" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../devel/include/custom_msgs/Box.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1287">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation/src/navigation_node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/navigation/src/BoxTracker.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation/src/BoxTracker.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../devel/include/custom_msgs/ImagesAndBoxes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="62" column="85" lean-forward="true" selection-start-line="62" selection-start-column="85" selection-end-line="62" selection-end-column="85" />
+          <folding>
+            <element signature="e#511#537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigation/src/navigator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="e#96#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/melodic/include/ros/publisher.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object_detection/src/object_prediction.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/ros/melodic/include/ros/service_client.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+          <folding>
+            <element signature="e#2401#2425#0" expanded="true" />
+            <element signature="e#3185#3200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/action_dispatcher/src/action_dispatcher_node.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#122#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_memory/src/memory_bucket.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#47#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/robot_memory/src/robot_memory_node.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
             <element signature="e#1317#1354#0" expanded="true" />
@@ -2803,39 +3932,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robot_memory/src/memory_bucket.h">
+    <entry file="file://$PROJECT_DIR$/robot_memory/tests/test_robot_memory.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <element signature="e#47#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object_detection/src/object_prediction.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/object_detection/src/object_prediction.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="151">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/src/navigator.cpp">
+    <entry file="file://$PROJECT_DIR$/custom_msgs/src/SingleResultSrvClient.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="17">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scooping_handler/package.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_msgs/src/SingleResultSrvClient.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#39#61#0" expanded="true" />
+            <element signature="e#85#97#0" expanded="true" />
+            <element signature="e#107#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catch_ros/src/ros_junit_reporter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catch_ros/src/meta_info.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catch_ros/src/meta_info.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catch_ros/cmake/catch.cmake.em">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catch_ros/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_memory/tests/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catch_ros/src/standalone_main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catch_ros/src/rostest_main.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_msgs/package.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catch_ros/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catch_ros/package.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robot_memory/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scooping_handler/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="130" selection-start-line="130" selection-end-line="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom_msgs/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="971">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_processor/src/processor_node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/action_dispatcher/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="124" column="3" lean-forward="true" selection-start-line="124" selection-start-column="3" selection-end-line="124" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scooping_handler/src/scooping_node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" column="88" lean-forward="true" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2843,7 +4062,7 @@
     <entry file="file://$PROJECT_DIR$/object_detection/src/object_prediction_node.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding>
             <element signature="e#61#81#0" expanded="true" />
           </folding>
@@ -2852,8 +4071,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/object_detection/src/object_prediction_node.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="1088">
+          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
             <element signature="e#77#119#0" expanded="true" />
@@ -2861,68 +4080,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/src/BoxTracker.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/src/BoxTracker.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/src/navigation_node.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/action_dispatcher/src/action_dispatcher_node.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="e#122#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/action_dispatcher/src/action_dispatcher_node.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="591">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#39#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/navigation/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="139" column="46" selection-start-line="139" selection-start-column="46" selection-end-line="139" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robot_memory/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/object_detection/src/object_prediction.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/action_dispatcher/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/navigation/src/navigator.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="139" column="85" lean-forward="true" selection-start-line="139" selection-start-column="85" selection-end-line="139" selection-end-column="85" />
+        <state relative-caret-position="680">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#39#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

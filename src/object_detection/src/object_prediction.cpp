@@ -4,7 +4,7 @@
 
 using namespace custom_msgs;
 
-custom_msgs::ImagesAndBoxes ObjectPrediction::performPrediction(const ImagesAndBoxes& currImgBoxes, const ImagesAndBoxes& lastImgBoxes, const Action& lastAction) {
+const custom_msgs::ImagesAndBoxes ObjectPrediction::performPrediction(const ImagesAndBoxes& currImgBoxes, const ImagesAndBoxes& lastImgBoxes, const Action& lastAction) const {
 	ROS_INFO("Performing Prediction");
 	return currImgBoxes;
 }

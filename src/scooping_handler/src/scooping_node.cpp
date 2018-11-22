@@ -12,7 +12,7 @@ private:
 	ros::ServiceClient& predictionClient_;
 	ros::Publisher& actionPub_;
 
-	std::optional<custom_msgs::ImagesAndBoxes const> fetchLastNetworkOutput() {
+	std::optional<custom_msgs::ImagesAndBoxes const> fetchLastNetworkOutput() const {
 		custom_msgs::ImagesAndBoxesSrv srv;
 		if(!predictionClient_.call(srv)) return std::nullopt;
 		return { srv.response.result };
@@ -45,6 +45,8 @@ int main(int argc, char **argv) {
 	ros::service::waitForService("fetch_prediction_output", -1);
 
 	ros::ServiceClient predictionClient = nh.serviceClient<custom_msgs::ImagesAndBoxesSrv>("fetch_prediction_output");
+
+
 	ros::Publisher actionPub = nh.advertise<custom_msgs::Action>("action_intents", 5);
 
 	ScoopingNode scoopingNode(predictionClient, actionPub);
