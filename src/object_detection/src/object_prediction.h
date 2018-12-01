@@ -9,6 +9,10 @@ class ObjectPrediction {
 public:
 	const custom_msgs::ImagesAndBoxes performPrediction(const custom_msgs::ImagesAndBoxes& currImgBoxes, const custom_msgs::ImagesAndBoxes& lastImgBoxes, const custom_msgs::Action& lastAction) const;
 
+private:
+
+
+
 };
 
 #endif

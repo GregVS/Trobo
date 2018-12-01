@@ -6,7 +6,7 @@
 
 const custom_msgs::Box BoxTracker::bestBoxToTrack(const std::vector<custom_msgs::Box>& boxes) const {
     auto it = std::min_element(boxes.begin(), boxes.end(), [](const custom_msgs::Box& box1, const custom_msgs::Box& box2) {
-        return std::abs((box1.left + box1.right) / 2.0f - 0.5f) < std::abs((box2.left + box2.right) / 2.0f - 0.5f);
+        return std::abs((box1.left + box1.right) / 2.0f) < std::abs((box2.left + box2.right) / 2.0f);
     });
     assert(it != boxes.end());
     return *it;

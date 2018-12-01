@@ -57,10 +57,11 @@ def get_detection_boxes(out):
         score = float(out[1][0][i])
         bbox = [float(v) for v in out[2][0][i]]
         if score > 0.3:
-            left = bbox[1]
-            top = bbox[0]
-            right = bbox[3]
-            bottom = bbox[2]
+			# make origin in center of image
+            left = bbox[1] - 0.5
+            top = -(bbox[0] - 0.5)
+            right = bbox[3] - 0.5
+            bottom = -(bbox[2] - 0.5)
             detection_boxes.append((left, top, right, bottom))
     return detection_boxes
 

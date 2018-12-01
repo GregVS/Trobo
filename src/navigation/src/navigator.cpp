@@ -14,7 +14,7 @@ custom_msgs::Action Navigator::chooseNavigationAction(const custom_msgs::ImagesA
 
 bool Navigator::shouldDriveForward() const {
     const auto& trackedBox = boxTracker_.trackedBox();
-    return std::abs((trackedBox.left + trackedBox.right) / 2.0f - 0.5f) < 0.15;
+    return std::abs((trackedBox.left + trackedBox.right) / 2.0f) < 0.15;
 }
 
 custom_msgs::Action Navigator::forwardAction() const {
@@ -26,7 +26,7 @@ custom_msgs::Action Navigator::forwardAction() const {
 
 custom_msgs::Action Navigator::turnAction() const {
     const auto& trackedBox = boxTracker_.trackedBox();
-    bool boxOnRightSide = (trackedBox.left + trackedBox.right) / 2.0f > 0.5f;
+    bool boxOnRightSide = (trackedBox.left + trackedBox.right) / 2.0f > 0;
     custom_msgs::Action action;
     action.id = 1;
     action.params = { boxOnRightSide ? 0.9f : 0.0f, boxOnRightSide ? 0.0f : 0.9f };

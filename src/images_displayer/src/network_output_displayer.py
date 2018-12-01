@@ -14,7 +14,7 @@ def show_img(img, boxes, window):
     bgr_image = cv2.cvtColor(cv_image, cv2.COLOR_RGB2BGR)
     height, width = bgr_image.shape[:2]
     for i in boxes:
-        cv2.rectangle(bgr_image, (int(i.left * width), int(i.top*height)), (int(i.right*width), int(i.bottom*height)), (0, 255, 0), 2)
+        cv2.rectangle(bgr_image, (int((i.left + 0.5) * width), int((-i.top + 0.5)*height)), (int((i.right + 0.5)*width), int((-i.bottom + 0.5) *height)), (0, 255, 0), 2)
     cv2.imshow(window, bgr_image)
     cv2.waitKey(1)
 
