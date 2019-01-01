@@ -1,0 +1,3 @@
+catkin_make run_tests_object_detection
+catkin_make run_tests_robot_memory
+catkin_make run_tests_navigation
