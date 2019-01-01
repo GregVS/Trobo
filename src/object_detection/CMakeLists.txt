@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   roscpp
   sensor_msgs
+        catch_ros
 )
 
 ## System dependencies are found with CMake's conventions
@@ -119,6 +120,7 @@ catkin_package(
 ## Your package locations should be listed before other locations
 include_directories(
 # include
+        src
   ${catkin_INCLUDE_DIRS}
 )
 
@@ -135,7 +137,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(object_prediction_node src/object_prediction_node.cpp src/object_prediction.cpp src/Perspective.cpp src/Perspective.h src/Vector2D.h)
+add_executable(object_prediction_node src/object_prediction_node.cpp src/prediction/object_prediction.cpp src/perspective/perspective.h src/perspective_math/vector_2d.h src/perspective/perspective_constants.h src/perspective_math/cross_ratio.h)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -199,3 +201,8 @@ target_link_libraries(object_prediction_node
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+enable_testing()
+if (CATKIN_ENABLE_TESTING)
+    add_subdirectory(test)
+endif()

@@ -5,6 +5,14 @@
 #include <custom_msgs/ImagesAndBoxesSrv.h>
 #include <custom_msgs/ActionSrv.h>
 #include <memory>
+#include "perspective/perspective_constants.h"
+
+const double screen::vanishing = 0.9;
+const double screen::firstMarker = 0.1;
+const double screen::secondMarker = 0.2;
+const double screen::cmToFrameRatio = 100;
+const double world::firstMarker = 1;
+const double world::secondMarker = 2;
 
 void ObjectPredictionNode::executePredictionForOutput(const custom_msgs::ImagesAndBoxes::ConstPtr& currNetOut) const {
 	// call the services and get the latest data

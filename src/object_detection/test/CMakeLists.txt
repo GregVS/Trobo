@@ -1,0 +1,5 @@
+find_package(catch_ros REQUIRED)
+include_directories(${catkin_INCLUDE_DIRS})
+catch_add_test(${PROJECT_NAME}_test test_perspective.cpp)
+target_include_directories(${PROJECT_NAME}_test PUBLIC ../src)
+target_link_libraries(${PROJECT_NAME}_test ${catkin_LIBRARIES})

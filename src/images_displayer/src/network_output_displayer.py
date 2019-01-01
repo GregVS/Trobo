@@ -6,6 +6,7 @@ import cv2
 
 bridge = CvBridge()
 
+
 def show_img(img, boxes, window):
     # the recieved image must be in rgb format
     cv_image = bridge.imgmsg_to_cv2(img, 'rgb8')
@@ -14,13 +15,16 @@ def show_img(img, boxes, window):
     bgr_image = cv2.cvtColor(cv_image, cv2.COLOR_RGB2BGR)
     height, width = bgr_image.shape[:2]
     for i in boxes:
-        cv2.rectangle(bgr_image, (int((i.left + 0.5) * width), int((-i.top + 0.5)*height)), (int((i.right + 0.5)*width), int((-i.bottom + 0.5) *height)), (0, 255, 0), 2)
+        cv2.rectangle(bgr_image, (int((i.left + 0.5) * width), int((-i.top + 0.5) * height)),
+                      (int((i.right + 0.5) * width), int((-i.bottom + 0.5) * height)), (0, 255, 0), 2)
     cv2.imshow(window, bgr_image)
     cv2.waitKey(1)
+
 
 def callback(data):
     show_img(data.bot_img, data.bot_img_boxes, "bot img")
     show_img(data.top_img, data.top_img_boxes, "top img")
+
 
 # setup ros node
 def listener():
@@ -28,6 +32,7 @@ def listener():
     rospy.Subscriber('network_out_imgs', ImagesAndBoxes, callback)
     rospy.loginfo('Network output image displayer running...')
     rospy.spin()
+
 
 if __name__ == '__main__':
     listener()

@@ -11,7 +11,10 @@ find_package(catkin REQUIRED COMPONENTS
         std_srvs
         custom_msgs
         roscpp
+        catch_ros
 )
+
+find_package(Boost)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -133,7 +136,8 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(${PROJECT_NAME}_node src/navigation_node.cpp src/navigator.h src/navigator.cpp src/BoxTracker.cpp src/BoxTracker.h)
+add_executable(${PROJECT_NAME}_node src/navigation_node.cpp src/navigator.h src/navigator.cpp src/box_tracker.cpp src/box_tracker.h)
+add_executable(position_prediction_node src/prediction/PositionPredictionNode.cpp src/prediction/PositionPredictionNode.h src/prediction/PositionPrediction.h)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -149,6 +153,9 @@ add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catk
 target_link_libraries(${PROJECT_NAME}_node
   ${catkin_LIBRARIES}
 )
+target_link_libraries(position_prediction_node
+    ${catkin_LIBRARIES}
+    )
 
 #############
 ## Install ##
@@ -197,3 +204,8 @@ target_link_libraries(${PROJECT_NAME}_node
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+enable_testing()
+if (CATKIN_ENABLE_TESTING)
+    add_subdirectory(test)
+endif()

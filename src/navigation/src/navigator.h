@@ -8,7 +8,7 @@
 #include <custom_msgs/ImagesAndBoxes.h>
 #include <custom_msgs/Action.h>
 #include <custom_msgs/Box.h>
-#include "BoxTracker.h"
+#include "box_tracker.h"
 
 class Navigator {
 

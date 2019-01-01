@@ -4,7 +4,7 @@
 #include "ros/ros.h"
 #include <custom_msgs/ImagesAndBoxes.h>
 #include <custom_msgs/Action.h>
-#include "object_prediction.h"
+#include "prediction/object_prediction.h"
 
 #include <optional>
 

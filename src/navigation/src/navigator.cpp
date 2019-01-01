@@ -13,7 +13,7 @@ custom_msgs::Action Navigator::chooseNavigationAction(const custom_msgs::ImagesA
 }
 
 bool Navigator::shouldDriveForward() const {
-    const auto& trackedBox = boxTracker_.trackedBox();
+    auto& trackedBox = boxTracker_.trackedBox();
     return std::abs((trackedBox.left + trackedBox.right) / 2.0f) < 0.15;
 }
 
